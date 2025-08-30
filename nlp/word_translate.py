@@ -41,7 +41,7 @@ def extract_all_tables(chapter,doc):
                 # 检查单元格是否是合并单元格的一部分
                 paragraphs = [para.text.strip().replace('..', '') for para in cell.paragraphs if
                               para.text.strip()]
-
+                print(f'{idx}_{i}_{j}' ,paragraphs)
                 for key, value in idx_map.items():
                     if "_".join([str(idx), str(i), str(j)]) == value:
                         if 1 == key:
@@ -51,17 +51,17 @@ def extract_all_tables(chapter,doc):
                         if 3==key:
                             txt_map[key]=paragraphs[0]
                         if 4==key:
-                            txt_map[key]=paragraphs[0]
+                            txt_map[key]='\n'.join(paragraphs)
                         if 5==key:
-                            txt_map[key]=paragraphs[0]
+                            txt_map[key] = '\n'.join(paragraphs)
                         if 6==key:
-                            txt_map[key]=paragraphs[0]
+                            txt_map[key]='\n'.join(paragraphs)
                         if 7==key:
-                            txt_map[key]=paragraphs[2]
+                            txt_map[key]=paragraphs[2] if len(paragraphs)>2 else ''
                         if 8==key:
-                            txt_map[key]=paragraphs[4]
+                            txt_map[key]=paragraphs[4] if  len(paragraphs)>4 else ''
                         if 9==key:
-                            txt_map[key]=paragraphs[6]
+                            txt_map[key]=paragraphs[6] if  len(paragraphs)>6 else ''
                         if 10==key:
                             txt_map[key]="\n".join(paragraphs)
                         if 11==key:
@@ -74,7 +74,7 @@ def extract_all_tables(chapter,doc):
                     for k,v in txt_map.items():
                         print(k,v)
                     return txt_map
-                if '课  中' in "".join(paragraphs):
+                if '教学内容' in "".join(paragraphs) :
                     content_flag = True
                 if content_flag and j == 0:
                     for txt in paragraphs:
@@ -82,7 +82,7 @@ def extract_all_tables(chapter,doc):
                 if content_flag and j == 2:
                     for txt in paragraphs:
                         _14.append(txt)
-                if content_flag and j == 4:
+                if content_flag and j == 3:
                     for txt in paragraphs:
                         _15.append(txt)
                 text_list.extend(paragraphs)
@@ -161,12 +161,16 @@ if __name__ == '__main__':
 
         # 遍历A中的文件
         idx = 1
-        for filename in os.listdir(folder_a):
+        for filename in sorted(os.listdir(folder_a)):
             if filename.lower().endswith(".docx") and not filename.lower().startswith("._"):  # 只处理 .doc 文件
                 src_file = os.path.join(folder_a, filename)
                 print(src_file)
                 src_doc = Document(src_file)
                 txt_map = extract_all_tables(idx,src_doc)
+                for k,v in txt_map.items():
+                    print()
+                    print(k,'===',v)
+
                 idx+=1
                 src = template_file
                 dst = os.path.join(folder_b, filename)
@@ -182,8 +186,8 @@ if __name__ == '__main__':
                 replace_text_in_docx(dst,dst,replace_map)
 
     if __name__ == "__main__":
-        folder_b = r'/Volumes/HIKSEMI/LT Work/202509课件/电工基础-胡学林/教案-2024版'  # B 文件夹路径
-        folder_a = r'/Volumes/HIKSEMI/LT Work/202509课件/电工基础-胡学林/教案-2024版-docx'
-        template_file = r'/Volumes/HIKSEMI/LT Work/202509课件/电工基础-胡学林/教案-模板-代码版.doc'
+        folder_b = r'/Volumes/HIKSEMI/LT Work/202509课件/信息技术2-胡学林/教案'
+        folder_a = r'/Volumes/HIKSEMI/LT Work/202509课件/信息技术2 阮臣霞/信息技术2-新教案-docx'
+        template_file = r'/Volumes/HIKSEMI/LT Work/202509课件/信息技术2-胡学林/教案-模板-代码版.doc'
 
         copy_with_template(folder_a, folder_b, template_file)
