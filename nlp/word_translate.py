@@ -34,22 +34,32 @@ def extract_all_tables(chapter,doc):
     _13 = []
     _14 = []
     _15 = []
-
+    arr = []
     for idx, table in enumerate(tables):
         for i, row in enumerate(table.rows):
             for j, cell in enumerate(row.cells):
                 # 检查单元格是否是合并单元格的一部分
                 paragraphs = [para.text.strip().replace('..', '') for para in cell.paragraphs if
                               para.text.strip()]
-                print(f'{idx}_{i}_{j}' ,paragraphs)
+                s = f'{idx}_{i}_{j}'
+                # print(s,paragraphs)
+                if s == '0_4_1':
+                    # arr.append(extract_goals(paragraphs))
+                    pass
+                if s== '0_7_1' :
+                    a1 = paragraphs[0].split('\n')[0]
+                    arr.append(a1)
+                if s== '0_8_1':
+                    a2 = paragraphs[0].split('\n')[0]
+                    arr.append(a2)
                 for key, value in idx_map.items():
                     if "_".join([str(idx), str(i), str(j)]) == value:
                         if 1 == key:
                             txt_map[key] = chapter
-                        if 2 == key:
-                            txt_map[key] = paragraphs[0]
-                        if 3==key:
-                            txt_map[key]=paragraphs[0]
+                        # if 2 == key:
+                        #     txt_map[key] = paragraphs[0]
+                        # if 3==key:
+                        #     txt_map[key]=paragraphs[0]
                         if 4==key:
                             txt_map[key]='\n'.join(paragraphs)
                         if 5==key:
@@ -71,8 +81,8 @@ def extract_all_tables(chapter,doc):
                     txt_map[13] = "\n".join(_13[2:])
                     txt_map[14] = "\n".join(_14[2:])
                     txt_map[15] = "\n".join(_15[2:])
-                    for k,v in txt_map.items():
-                        print(k,v)
+                    # for k,v in txt_map.items():
+                        # print(k,v)
                     return txt_map
                 if '教学内容' in "".join(paragraphs) :
                     content_flag = True
@@ -153,6 +163,17 @@ def replace_text_in_docx(src_path, dst_path, replacements):
     doc.save(dst_path)
     print(f"替换完成，已保存至: {dst_path}")
 
+
+def print_tables(docx_path):
+    doc = Document(docx_path)
+
+    for table_index, table in enumerate(doc.tables, start=1):  # 遍历表格
+        print(f"表格 {table_index}:")
+        for row_index, row in enumerate(table.rows, start=1):  # 遍历行
+            for col_index, cell in enumerate(row.cells, start=1):  # 遍历列
+                text = cell.text.strip()
+                print(f"  行 {row_index}, 列 {col_index}: {text}")
+        print("-" * 40)
 if __name__ == '__main__':
 
     def copy_with_template(folder_a, folder_b, template_file):
@@ -161,33 +182,11 @@ if __name__ == '__main__':
 
         # 遍历A中的文件
         idx = 1
-        for filename in sorted(os.listdir(folder_a)):
-            if filename.lower().endswith(".docx") and not filename.lower().startswith("._"):  # 只处理 .doc 文件
-                src_file = os.path.join(folder_a, filename)
-                print(src_file)
-                src_doc = Document(src_file)
-                txt_map = extract_all_tables(idx,src_doc)
-                for k,v in txt_map.items():
-                    print()
-                    print(k,'===',v)
 
-                idx+=1
-                src = template_file
-                dst = os.path.join(folder_b, filename)
-
-                # 复制模板并重命名
-                shutil.copy(src, dst)
-                print(f"已生成: {dst}")
-                replace_map = {}
-                for k,v in txt_map.items():
-                    _k = '${%s}' % k
-                    replace_map[_k] = v
-                print(replace_map)
-                replace_text_in_docx(dst,dst,replace_map)
 
     if __name__ == "__main__":
         folder_b = r'/Volumes/HIKSEMI/LT Work/202509课件/信息技术2-胡学林/教案'
-        folder_a = r'/Volumes/HIKSEMI/LT Work/202509课件/信息技术2 阮臣霞/信息技术2-新教案-docx'
+        folder_a = '/Volumes/HIKSEMI/LT Work/202509教学工作/电工基础-胡学林/教案-2025版'
         template_file = r'/Volumes/HIKSEMI/LT Work/202509课件/信息技术2-胡学林/教案-模板-代码版.doc'
 
         copy_with_template(folder_a, folder_b, template_file)
