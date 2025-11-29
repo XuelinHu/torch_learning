@@ -3,8 +3,8 @@ import os
 from time import sleep
 if __name__ == '__main__':
 
-    # 创建输出目录（如果不存在）
-    output_dir = "./DRA"
+        # 创建输出目录（如果不存在）
+    output_dir = "./"
 
     # 数据集配置
     dataset = "derived-era5-single-levels-daily-statistics"

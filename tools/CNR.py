@@ -4,23 +4,23 @@ from time import sleep
 
 
 if __name__ == '__main__':
-        
+
     # 创建输出目录（如果不存在）
     output_dir = "./CNR"
     os.makedirs(output_dir, exist_ok=True)
-    
+
     # 替换为你的 CDS UID 和 API Key
     CDS_URL = "https://cds.climate.copernicus.eu/api"
     CDS_KEY = "c6894874-dd23-4192-8eca-1c7ed2c7db90"  # 格式为 "UID:API_KEY"
-    
+
     # 数据集配置
     dataset = "derived-era5-single-levels-daily-statistics"
-    
+
     # 定义要下载的年份
     years = ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021']  # 可以扩展为 ['2012', '2013', ...]
     months = ["01", "02", "03", "04", "05", "06",
               "07", "08", "09", "10", "11", "12"]
-    
+
     # 变量列表保持不变
     variables = [
         "surface_net_solar_radiation",
@@ -33,10 +33,10 @@ if __name__ == '__main__':
         "total_cloud_cover",
         "total_column_water_vapour"
     ]
-    
+
     # 创建CDS客户端
     client = cdsapi.Client(url=CDS_URL, key=CDS_KEY)
-    
+
     for year in years:
         for month in months:
             # 构造请求参数
@@ -51,20 +51,20 @@ if __name__ == '__main__':
                 "frequency": "1_hourly",
                 "area": [42.816, -1.601, 42.816, -1.601]
             }
-    
+
             # 构造输出文件名
             filename = f"ERA5_{year}_{month}.nc"
             output_path = os.path.join(output_dir, filename)
-    
+
             try:
                 print(f"正在下载 {year}年{month}月数据...")
-    
+
                 # 执行下载
                 client.retrieve(dataset, request).download(output_path)
-    
+
                 print(f"成功下载: {filename}")
                 sleep(60)  # 每次下载后暂停60秒，避免请求过于频繁
-    
+
             except Exception as e:
                 print(f"下载失败: {str(e)}")
                 if "cost limits exceeded" in str(e):
@@ -78,5 +78,5 @@ if __name__ == '__main__':
                         print(f"仍然失败: {str(e2)}")
                         print("请稍后再试或进一步减少请求量")
                 continue
-    
+
     print("所有数据下载完成！")
