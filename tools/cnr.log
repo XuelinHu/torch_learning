@@ -1,0 +1,838 @@
+nohup: ignoring input
+2025-05-07 11:48:03,564 INFO [2024-09-26T00:00:00] Watch our [Forum](https://forum.ecmwf.int/) for Announcements, news and other discussed topics.
+2025-05-07 11:48:03,564 WARNING [2024-06-16T00:00:00] CDS API syntax is changed and some keys or parameter names may have also changed. To avoid requests failing, please use the "Show API request code" tool on the dataset Download Form to check you are using the correct syntax for your API request.
+2025-05-07 11:48:05,536 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 11:48:05,536 INFO Request ID is 69c5ec58-3c8f-435d-a768-bf8af9989495
+2025-05-07 11:48:06,157 INFO status has been updated to accepted
+2025-05-07 11:48:21,764 INFO status has been updated to running
+2025-05-07 12:00:59,804 INFO status has been updated to successful
+正在下载 2012年01月数据...
+e3f5c57c2e13336b8f033ff7d15b9387.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]e3f5c57c2e13336b8f033ff7d15b9387.zip: 100%|██████████| 204k/204k [00:07<00:00, 27.9kB/s]                                                                                        2025-05-07 12:02:13,470 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 12:02:13,470 INFO Request ID is dd321249-09a3-4c43-ac1f-43ba7e03609d
+2025-05-07 12:02:13,880 INFO status has been updated to accepted
+2025-05-07 12:02:50,197 INFO status has been updated to running
+2025-05-07 12:10:42,850 INFO status has been updated to successful
+成功下载: ERA5_2012_01.nc
+正在下载 2012年02月数据...
+d45cb0ea36c5aea02886829ff31ba1f.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]d45cb0ea36c5aea02886829ff31ba1f.zip: 100%|██████████| 204k/204k [00:02<00:00, 87.9kB/s]                                                                                       2025-05-07 12:11:50,947 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 12:11:50,947 INFO Request ID is 84178527-2403-4b4e-8c27-2ce0790c863c
+2025-05-07 12:11:51,337 INFO status has been updated to accepted
+2025-05-07 12:12:44,840 INFO status has been updated to running
+2025-05-07 12:26:25,259 INFO status has been updated to successful
+成功下载: ERA5_2012_02.nc
+正在下载 2012年03月数据...
+837f3138d564eb29dadaa06f487fedcd.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]837f3138d564eb29dadaa06f487fedcd.zip: 100%|██████████| 204k/204k [00:02<00:00, 87.5kB/s]                                                                                        2025-05-07 12:27:33,679 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 12:27:33,679 INFO Request ID is cc94ca64-0964-4d62-84d1-a21d9358737c
+2025-05-07 12:27:34,085 INFO status has been updated to accepted
+2025-05-07 12:28:53,670 INFO status has been updated to running
+2025-05-07 12:36:03,006 INFO status has been updated to successful
+成功下载: ERA5_2012_03.nc
+正在下载 2012年04月数据...
+ef59f89c933904f58b81541e905aa3aa.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]ef59f89c933904f58b81541e905aa3aa.zip: 100%|██████████| 204k/204k [00:02<00:00, 96.6kB/s]                                                                                        2025-05-07 12:37:11,188 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 12:37:11,189 INFO Request ID is 1f0097e1-1295-4836-8c49-8d9b6dbf4019
+2025-05-07 12:37:11,565 INFO status has been updated to accepted
+2025-05-07 12:37:46,959 INFO status has been updated to running
+2025-05-07 12:47:54,033 INFO status has been updated to successful
+成功下载: ERA5_2012_04.nc
+正在下载 2012年05月数据...
+1d5a807d7db7e6e3fc5384b90d911add.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]1d5a807d7db7e6e3fc5384b90d911add.zip: 100%|██████████| 204k/204k [00:02<00:00, 71.7kB/s]                                                                                        2025-05-07 12:49:02,474 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 12:49:02,474 INFO Request ID is d9a97b2b-92f3-4964-8855-408b7d4597ea
+2025-05-07 12:49:02,849 INFO status has been updated to accepted
+2025-05-07 12:49:55,975 INFO status has been updated to running
+2025-05-07 12:57:31,282 INFO status has been updated to successful
+成功下载: ERA5_2012_05.nc
+正在下载 2012年06月数据...
+8c712ffc95d6ceea9ad69a3407cd5a44.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]8c712ffc95d6ceea9ad69a3407cd5a44.zip: 100%|██████████| 204k/204k [00:02<00:00, 100kB/s]                                                                                       2025-05-07 12:58:40,620 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 12:58:40,620 INFO Request ID is e3161db3-f69c-4cf6-be1b-d941e5f32d20
+2025-05-07 12:58:41,002 INFO status has been updated to accepted
+2025-05-07 12:59:34,024 INFO status has been updated to running
+2025-05-07 13:11:13,976 INFO status has been updated to successful
+成功下载: ERA5_2012_06.nc
+正在下载 2012年07月数据...
+597b3773d9bf763c4227215da4e3df96.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]597b3773d9bf763c4227215da4e3df96.zip: 100%|██████████| 204k/204k [00:01<00:00, 106kB/s]                                                                                       2025-05-07 13:12:21,772 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 13:12:21,772 INFO Request ID is 5c2aeec6-a1c4-4e28-9397-bf220ec891a8
+2025-05-07 13:12:22,557 INFO status has been updated to accepted
+2025-05-07 13:15:21,319 INFO status has been updated to running
+2025-05-07 13:22:55,462 INFO status has been updated to successful
+成功下载: ERA5_2012_07.nc
+正在下载 2012年08月数据...
+774fb5fdd6efaacff0aec5b63dab2d20.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]774fb5fdd6efaacff0aec5b63dab2d20.zip: 100%|██████████| 204k/204k [00:02<00:00, 76.2kB/s]                                                                                        2025-05-07 13:24:08,783 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 13:24:08,783 INFO Request ID is 4974029a-45f1-4e13-87e9-7085eb93a148
+2025-05-07 13:24:09,292 INFO status has been updated to accepted
+2025-05-07 13:24:45,376 INFO status has been updated to running
+2025-05-07 13:34:40,552 INFO status has been updated to successful
+成功下载: ERA5_2012_08.nc
+正在下载 2012年09月数据...
+318e089ac0f9763ff09fbcc855a3fab6.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]318e089ac0f9763ff09fbcc855a3fab6.zip: 100%|██████████| 204k/204k [00:02<00:00, 90.8kB/s]                                                                                        2025-05-07 13:35:48,515 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 13:35:48,515 INFO Request ID is e53a36db-a574-4f85-8892-ac24f716b4e7
+2025-05-07 13:35:48,902 INFO status has been updated to accepted
+2025-05-07 13:35:58,711 INFO status has been updated to running
+2025-05-07 13:44:17,630 INFO status has been updated to successful
+成功下载: ERA5_2012_09.nc
+正在下载 2012年10月数据...
+6da5f2acc29715f333bc870b70c0f8f.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]6da5f2acc29715f333bc870b70c0f8f.zip: 100%|██████████| 204k/204k [00:02<00:00, 84.6kB/s]                                                                                       2025-05-07 13:45:26,753 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 13:45:26,754 INFO Request ID is 82a8c2d3-986d-4196-860d-af5ff2138619
+2025-05-07 13:45:27,347 INFO status has been updated to accepted
+2025-05-07 13:45:51,238 INFO status has been updated to running
+2025-05-07 13:55:59,720 INFO status has been updated to successful
+成功下载: ERA5_2012_10.nc
+正在下载 2012年11月数据...
+27614981b2ff85f1f8d3efb34d36b8bd.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]27614981b2ff85f1f8d3efb34d36b8bd.zip: 100%|██████████| 204k/204k [00:02<00:00, 83.0kB/s]                                                                                        2025-05-07 13:57:07,058 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 13:57:07,058 INFO Request ID is 643dca64-bc29-40aa-a44c-1c65907b6125
+2025-05-07 13:57:07,448 INFO status has been updated to accepted
+2025-05-07 13:58:05,975 INFO status has been updated to running
+2025-05-07 14:05:51,126 INFO status has been updated to successful
+成功下载: ERA5_2012_11.nc
+正在下载 2012年12月数据...
+f99f26b785ef0247d4df37a718054c7d.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]f99f26b785ef0247d4df37a718054c7d.zip: 100%|██████████| 204k/204k [00:02<00:00, 85.8kB/s]                                                                                        2025-05-07 14:06:59,328 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 14:06:59,328 INFO Request ID is a43dda40-7021-4205-8685-87c21cbf6878
+2025-05-07 14:07:00,036 INFO status has been updated to accepted
+2025-05-07 14:07:09,762 INFO status has been updated to running
+2025-05-07 14:21:33,707 INFO status has been updated to successful
+成功下载: ERA5_2012_12.nc
+正在下载 2013年01月数据...
+11848bdc2d68e2f1526c1793675b5869.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]11848bdc2d68e2f1526c1793675b5869.zip: 100%|██████████| 204k/204k [00:02<00:00, 86.4kB/s]                                                                                        2025-05-07 14:22:58,334 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 14:22:58,335 INFO Request ID is 59a4ff13-cf4e-4caf-897a-c34ad56babc0
+2025-05-07 14:22:58,736 INFO status has been updated to accepted
+2025-05-07 14:23:23,757 INFO status has been updated to running
+2025-05-07 14:31:36,353 INFO status has been updated to successful
+成功下载: ERA5_2013_01.nc
+正在下载 2013年02月数据...
+a22704a771b6460598d690c15cbd20.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]a22704a771b6460598d690c15cbd20.zip: 100%|██████████| 204k/204k [00:02<00:00, 96.7kB/s]                                                                                      2025-05-07 14:32:45,384 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 14:32:45,384 INFO Request ID is a7d54744-a9a0-4b81-9d07-e6900c41aac4
+2025-05-07 14:32:45,982 INFO status has been updated to accepted
+2025-05-07 14:34:04,612 INFO status has been updated to running
+2025-05-07 14:43:22,010 INFO status has been updated to successful
+成功下载: ERA5_2013_02.nc
+正在下载 2013年03月数据...
+b5fe2d68f20a107c110918dc5b9c0fc8.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]b5fe2d68f20a107c110918dc5b9c0fc8.zip: 100%|██████████| 204k/204k [00:01<00:00, 105kB/s]                                                                                       2025-05-07 14:44:30,425 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 14:44:30,425 INFO Request ID is af9d2328-8aae-4fc6-84ab-6f1b56a0838d
+2025-05-07 14:44:32,118 INFO status has been updated to accepted
+2025-05-07 14:45:52,270 INFO status has been updated to running
+2025-05-07 14:53:02,409 INFO status has been updated to successful
+成功下载: ERA5_2013_03.nc
+正在下载 2013年04月数据...
+4436ee746f7584b1b23bf35f4b7022ea.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]4436ee746f7584b1b23bf35f4b7022ea.zip: 100%|██████████| 204k/204k [00:02<00:00, 84.3kB/s]                                                                                        2025-05-07 14:54:09,415 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 14:54:09,415 INFO Request ID is 04be2b99-cb13-46c1-af55-b859b459b285
+2025-05-07 14:54:09,969 INFO status has been updated to accepted
+2025-05-07 14:54:45,858 INFO status has been updated to running
+2025-05-07 15:02:41,902 INFO status has been updated to successful
+成功下载: ERA5_2013_04.nc
+正在下载 2013年05月数据...
+5f1e77f4837993ea72bed42c61bbe14d.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]5f1e77f4837993ea72bed42c61bbe14d.zip: 100%|██████████| 204k/204k [00:01<00:00, 110kB/s]                                                                                       2025-05-07 15:03:50,527 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 15:03:50,527 INFO Request ID is 69e2e631-8b66-485e-afd0-bb558cb59cb6
+2025-05-07 15:03:50,911 INFO status has been updated to accepted
+2025-05-07 15:05:49,849 INFO status has been updated to running
+2025-05-07 15:18:30,370 INFO status has been updated to successful
+成功下载: ERA5_2013_05.nc
+正在下载 2013年06月数据...
+740e63b4b1b90fa4e6114ed1ef906ef1.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]740e63b4b1b90fa4e6114ed1ef906ef1.zip: 100%|██████████| 204k/204k [00:06<00:00, 29.9kB/s]                                                                                        2025-05-07 15:19:43,212 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 15:19:43,212 INFO Request ID is 3885c5a1-dbf8-40bd-9396-455a145d7bf9
+2025-05-07 15:19:43,879 INFO status has been updated to accepted
+2025-05-07 15:20:08,298 INFO status has been updated to running
+2025-05-07 15:32:17,683 INFO status has been updated to successful
+成功下载: ERA5_2013_06.nc
+正在下载 2013年07月数据...
+607637ad77e5305c23164179b61dd0e3.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]607637ad77e5305c23164179b61dd0e3.zip: 100%|██████████| 204k/204k [00:02<00:00, 103kB/s]                                                                                       2025-05-07 15:33:26,227 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 15:33:26,227 INFO Request ID is a4a7cbde-305b-49c6-ac1c-0f9d8f490e16
+2025-05-07 15:33:26,775 INFO status has been updated to accepted
+2025-05-07 15:36:24,022 INFO status has been updated to running
+2025-05-07 15:43:57,119 INFO status has been updated to successful
+成功下载: ERA5_2013_07.nc
+正在下载 2013年08月数据...
+2dca35781d66d6b252ed5da63c69c21f.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]2dca35781d66d6b252ed5da63c69c21f.zip: 100%|██████████| 204k/204k [00:03<00:00, 57.3kB/s]                                                                                        2025-05-07 15:45:06,098 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 15:45:06,098 INFO Request ID is 007c1eba-2f89-433c-80d6-0fe64b0d4881
+2025-05-07 15:45:06,502 INFO status has been updated to accepted
+2025-05-07 15:45:21,899 INFO status has been updated to running
+2025-05-07 15:55:42,607 INFO status has been updated to successful
+成功下载: ERA5_2013_08.nc
+正在下载 2013年09月数据...
+57cdc159b031f684bc9213c3475544b2.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]57cdc159b031f684bc9213c3475544b2.zip: 100%|██████████| 204k/204k [00:03<00:00, 62.9kB/s]                                                                                        2025-05-07 15:56:51,893 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 15:56:51,894 INFO Request ID is 19833a97-9c1a-4e69-9df9-263411519c6f
+2025-05-07 15:56:52,317 INFO status has been updated to accepted
+2025-05-07 15:57:28,438 INFO status has been updated to running
+2025-05-07 16:05:27,549 INFO status has been updated to successful
+成功下载: ERA5_2013_09.nc
+正在下载 2013年10月数据...
+4d3f78feb9d71813a3ee01dcc1003bbb.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]4d3f78feb9d71813a3ee01dcc1003bbb.zip: 100%|██████████| 204k/204k [00:02<00:00, 85.0kB/s]                                                                                        2025-05-07 16:06:34,590 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 16:06:34,590 INFO Request ID is cda55718-9153-495d-83ca-49c2512ef1ac
+2025-05-07 16:06:35,650 INFO status has been updated to accepted
+2025-05-07 16:06:41,741 INFO status has been updated to running
+2025-05-07 16:06:51,167 INFO status has been updated to accepted
+2025-05-07 16:06:59,157 INFO status has been updated to running
+2025-05-07 16:17:07,431 INFO status has been updated to successful
+成功下载: ERA5_2013_10.nc
+正在下载 2013年11月数据...
+6f32fbba7eeb51a1f0b85e30d8261d6f.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]6f32fbba7eeb51a1f0b85e30d8261d6f.zip: 100%|██████████| 204k/204k [00:01<00:00, 104kB/s]                                                                                       2025-05-07 16:18:15,000 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 16:18:15,001 INFO Request ID is 1e042e2c-ada9-4b2f-bfef-f171f005ad08
+2025-05-07 16:18:15,916 INFO status has been updated to accepted
+2025-05-07 16:18:31,207 INFO status has been updated to running
+2025-05-07 16:26:49,460 INFO status has been updated to successful
+成功下载: ERA5_2013_11.nc
+正在下载 2013年12月数据...
+19724f02dec9c4078e3eec40105c855f.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]19724f02dec9c4078e3eec40105c855f.zip: 100%|██████████| 204k/204k [00:01<00:00, 106kB/s]                                                                                       2025-05-07 16:27:56,549 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 16:27:56,549 INFO Request ID is 80ba98fe-d349-4662-9e33-9326e67bbbd9
+2025-05-07 16:27:57,091 INFO status has been updated to accepted
+2025-05-07 16:28:20,983 INFO status has been updated to running
+2025-05-07 16:40:38,751 INFO status has been updated to successful
+成功下载: ERA5_2013_12.nc
+正在下载 2014年01月数据...
+cd08b5984ae9fbb44e26cd7c3ccb81cb.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]cd08b5984ae9fbb44e26cd7c3ccb81cb.zip: 100%|██████████| 204k/204k [00:02<00:00, 75.1kB/s]                                                                                        2025-05-07 16:41:46,499 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 16:41:46,499 INFO Request ID is 933912a7-4fc3-40f8-8e52-46af2a7d6e0f
+2025-05-07 16:41:46,911 INFO status has been updated to accepted
+2025-05-07 16:41:57,495 INFO status has been updated to running
+2025-05-07 16:50:16,108 INFO status has been updated to successful
+成功下载: ERA5_2014_01.nc
+正在下载 2014年02月数据...
+4fa0c424bdd7ac5c577a657dc417f368.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]4fa0c424bdd7ac5c577a657dc417f368.zip: 100%|██████████| 204k/204k [00:01<00:00, 105kB/s]                                                                                       2025-05-07 16:51:23,174 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 16:51:23,174 INFO Request ID is b04f04ef-3951-41f6-8894-d048291f526b
+2025-05-07 16:51:23,927 INFO status has been updated to accepted
+2025-05-07 16:55:49,615 INFO status has been updated to running
+2025-05-07 17:05:58,478 INFO status has been updated to successful
+成功下载: ERA5_2014_02.nc
+正在下载 2014年03月数据...
+ce792da2e81eabe9689e718658e6ddec.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]ce792da2e81eabe9689e718658e6ddec.zip: 100%|██████████| 204k/204k [00:01<00:00, 109kB/s]                                                                                       2025-05-07 17:07:05,729 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 17:07:05,729 INFO Request ID is de845e11-7ce5-4a5e-a491-0cb0df4271d4
+2025-05-07 17:07:06,176 INFO status has been updated to accepted
+2025-05-07 17:15:34,697 INFO status has been updated to running
+2025-05-07 17:23:40,929 INFO status has been updated to successful
+成功下载: ERA5_2014_03.nc
+正在下载 2014年04月数据...
+8be120ae15c633d1aafc9916cd41698b.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]8be120ae15c633d1aafc9916cd41698b.zip: 100%|██████████| 204k/204k [00:02<00:00, 104kB/s]                                                                                       2025-05-07 17:24:49,466 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 17:24:49,466 INFO Request ID is b7ce41b1-131f-4c1d-8340-b825a4627388
+2025-05-07 17:24:49,841 INFO status has been updated to accepted
+2025-05-07 17:35:22,119 INFO status has been updated to running
+2025-05-07 17:45:29,687 INFO status has been updated to successful
+成功下载: ERA5_2014_04.nc
+正在下载 2014年05月数据...
+9c5ad0c52172c54598334670561c43b5.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]9c5ad0c52172c54598334670561c43b5.zip: 100%|██████████| 204k/204k [00:02<00:00, 83.2kB/s]                                                                                        2025-05-07 17:46:38,073 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 17:46:38,073 INFO Request ID is bab1975f-d20a-470c-91a6-e0dace731041
+2025-05-07 17:46:38,479 INFO status has been updated to accepted
+2025-05-07 18:07:21,297 INFO status has been updated to running
+2025-05-07 18:15:27,304 INFO status has been updated to successful
+成功下载: ERA5_2014_05.nc
+正在下载 2014年06月数据...
+862f90ec615af7a31de79aa5c43cb537.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]862f90ec615af7a31de79aa5c43cb537.zip: 100%|██████████| 204k/204k [00:02<00:00, 84.9kB/s]                                                                                        2025-05-07 18:16:35,380 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 18:16:35,381 INFO Request ID is 2a339158-47ab-4200-8c7d-7de1b9e83263
+2025-05-07 18:16:35,770 INFO status has been updated to accepted
+2025-05-07 18:25:05,398 INFO status has been updated to running
+2025-05-07 18:35:13,671 INFO status has been updated to successful
+成功下载: ERA5_2014_06.nc
+正在下载 2014年07月数据...
+9857c66fb9ea4a5227c512aa8e23bc84.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]9857c66fb9ea4a5227c512aa8e23bc84.zip: 100%|██████████| 204k/204k [00:02<00:00, 99.6kB/s]                                                                                        2025-05-07 18:36:20,847 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 18:36:20,848 INFO Request ID is ffe630cb-86f3-4479-a6f0-7d2958a3f2ad
+2025-05-07 18:36:21,227 INFO status has been updated to accepted
+2025-05-07 18:45:04,350 INFO status has been updated to running
+2025-05-07 18:47:06,000 INFO status has been updated to accepted
+2025-05-07 18:55:11,915 INFO status has been updated to running
+2025-05-07 19:03:18,041 INFO status has been updated to successful
+成功下载: ERA5_2014_07.nc
+正在下载 2014年08月数据...
+e3fd128a8572fa3b819f5eb5a0bdf417.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]e3fd128a8572fa3b819f5eb5a0bdf417.zip: 100%|██████████| 204k/204k [00:01<00:00, 107kB/s]                                                                                       2025-05-07 19:04:29,136 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 19:04:29,137 INFO Request ID is c08315a1-2195-40a3-a944-75568bc59cf5
+2025-05-07 19:04:29,591 INFO status has been updated to accepted
+2025-05-07 19:19:03,470 INFO status has been updated to running
+2025-05-07 19:25:09,147 INFO status has been updated to successful
+成功下载: ERA5_2014_08.nc
+正在下载 2014年09月数据...
+22f9f522d738d705db096f2caee96a7e.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]22f9f522d738d705db096f2caee96a7e.zip: 100%|██████████| 204k/204k [00:02<00:00, 77.0kB/s]                                                                                        2025-05-07 19:26:18,399 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 19:26:18,400 INFO Request ID is f005df28-99a7-40e0-9809-5c9a2b8aa76d
+2025-05-07 19:26:20,378 INFO status has been updated to accepted
+2025-05-07 19:34:48,654 INFO status has been updated to running
+2025-05-07 19:43:01,210 INFO status has been updated to successful
+成功下载: ERA5_2014_09.nc
+正在下载 2014年10月数据...
+b4a5efd6a4cc810fdf3921a174ccfa21.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]b4a5efd6a4cc810fdf3921a174ccfa21.zip: 100%|██████████| 204k/204k [00:02<00:00, 96.9kB/s]                                                                                        2025-05-07 19:44:09,185 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 19:44:09,185 INFO Request ID is 4258b322-354c-4567-92e0-fc7e9601a929
+2025-05-07 19:44:09,784 INFO status has been updated to accepted
+2025-05-07 19:50:36,936 INFO status has been updated to running
+2025-05-07 20:01:05,321 INFO status has been updated to successful
+成功下载: ERA5_2014_10.nc
+正在下载 2014年11月数据...
+c28defd2e79c7e8b86aa1e43f01448fe.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]c28defd2e79c7e8b86aa1e43f01448fe.zip: 100%|██████████| 204k/204k [00:03<00:00, 56.4kB/s]                                                                                        2025-05-07 20:02:14,074 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 20:02:14,074 INFO Request ID is 0c649c34-0c42-43ad-82f3-a4aaa642ff80
+2025-05-07 20:02:14,473 INFO status has been updated to accepted
+2025-05-07 20:14:51,548 INFO status has been updated to running
+2025-05-07 20:25:04,815 INFO status has been updated to successful
+成功下载: ERA5_2014_11.nc
+正在下载 2014年12月数据...
+9970dd925cb0ba7d97fd875cdcf10032.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]9970dd925cb0ba7d97fd875cdcf10032.zip: 100%|██████████| 204k/204k [00:02<00:00, 89.2kB/s]                                                                                        2025-05-07 20:26:15,075 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 20:26:15,075 INFO Request ID is 8dcf35cd-db43-49e6-bcda-fcafbd4775be
+2025-05-07 20:26:15,468 INFO status has been updated to accepted
+2025-05-07 21:01:35,404 INFO status has been updated to running
+2025-05-07 21:13:46,906 INFO status has been updated to successful
+成功下载: ERA5_2014_12.nc
+正在下载 2015年01月数据...
+d4e213dea276648369456e182ddf7cc2.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]d4e213dea276648369456e182ddf7cc2.zip: 100%|██████████| 204k/204k [00:02<00:00, 71.0kB/s]                                                                                        2025-05-07 21:14:55,396 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 21:14:55,396 INFO Request ID is 5bd41c6d-5004-4c08-8d8b-89327635acca
+2025-05-07 21:14:55,786 INFO status has been updated to accepted
+2025-05-07 21:51:59,154 INFO status has been updated to running
+2025-05-07 21:58:04,207 INFO status has been updated to successful
+成功下载: ERA5_2015_01.nc
+正在下载 2015年02月数据...
+ed6d5eb024ddca727456f34af406eaea.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]ed6d5eb024ddca727456f34af406eaea.zip: 100%|██████████| 204k/204k [00:02<00:00, 80.2kB/s]                                                                                        2025-05-07 21:59:14,044 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 21:59:14,045 INFO Request ID is 286bd656-dcba-4083-bf7c-09ff4a05929d
+2025-05-07 21:59:14,429 INFO status has been updated to accepted
+2025-05-07 22:38:14,143 INFO status has been updated to running
+2025-05-07 22:44:20,109 INFO status has been updated to successful
+成功下载: ERA5_2015_02.nc
+正在下载 2015年03月数据...
+c0012acc76c48d6306c4503d54932395.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]c0012acc76c48d6306c4503d54932395.zip: 100%|██████████| 204k/204k [00:03<00:00, 64.8kB/s]                                                                                        2025-05-07 22:45:28,557 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-07 22:45:28,558 INFO Request ID is 55d837e0-3ba5-4e11-a85f-d56c38f8e731
+2025-05-07 22:45:28,949 INFO status has been updated to accepted
+2025-05-07 23:53:20,404 INFO status has been updated to running
+2025-05-07 23:59:26,810 INFO status has been updated to successful
+成功下载: ERA5_2015_03.nc
+正在下载 2015年04月数据...
+2664f543b92c1b93f49980c0e9986f86.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]2664f543b92c1b93f49980c0e9986f86.zip: 100%|██████████| 204k/204k [00:02<00:00, 79.4kB/s]                                                                                        2025-05-08 00:00:36,378 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 00:00:36,378 INFO Request ID is e9973946-dd5a-41e5-9849-be70bdda8737
+2025-05-08 00:00:37,404 INFO status has been updated to accepted
+2025-05-08 00:07:25,026 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 00:07:25,027 INFO Request ID is 5269ec69-f170-4fba-bcb4-5283886cbd91
+2025-05-08 00:07:25,418 INFO status has been updated to accepted
+Recovering from connection error [HTTPSConnectionPool(host='cds.climate.copernicus.eu', port=443): Max retries exceeded with url: /api/retrieve/v1/jobs/5269ec69-f170-4fba-bcb4-5283886cbd91?log=True&request=True (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))], attempt 1 of 500
+Retrying in 120 seconds
+2025-05-08 01:47:44,340 INFO status has been updated to running
+2025-05-08 01:53:48,700 INFO status has been updated to successful
+成功下载: ERA5_2015_04.nc
+正在下载 2015年05月数据...
+下载失败: HTTPSConnectionPool(host='cds.climate.copernicus.eu', port=443): Max retries exceeded with url: /api/retrieve/v1/jobs/e9973946-dd5a-41e5-9849-be70bdda8737?log=True&request=True (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+正在下载 2015年06月数据...
+下载失败: HTTPSConnectionPool(host='cds.climate.copernicus.eu', port=443): Max retries exceeded with url: /api/retrieve/v1/processes/derived-era5-single-levels-daily-statistics (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+正在下载 2015年07月数据...
+下载失败: HTTPSConnectionPool(host='cds.climate.copernicus.eu', port=443): Max retries exceeded with url: /api/retrieve/v1/processes/derived-era5-single-levels-daily-statistics (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+正在下载 2015年08月数据...
+下载失败: HTTPSConnectionPool(host='cds.climate.copernicus.eu', port=443): Max retries exceeded with url: /api/retrieve/v1/processes/derived-era5-single-levels-daily-statistics (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+正在下载 2015年09月数据...
+2215b4e8a8c9b1904c7df3235165fe9a.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]2215b4e8a8c9b1904c7df3235165fe9a.zip: 100%|██████████| 204k/204k [00:02<00:00, 78.9kB/s]                                                                                        2025-05-08 01:54:56,721 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 01:54:56,721 INFO Request ID is 428398dc-e5c8-442a-910e-9b63b96d409b
+2025-05-08 01:54:57,092 INFO status has been updated to accepted
+2025-05-08 03:34:56,649 INFO status has been updated to running
+2025-05-08 03:36:58,090 INFO status has been updated to accepted
+2025-05-08 04:35:45,206 INFO status has been updated to running
+2025-05-08 04:45:57,914 INFO status has been updated to successful
+成功下载: ERA5_2015_09.nc
+正在下载 2015年10月数据...
+16e9939208583051d9b72fec1d90a4c9.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]16e9939208583051d9b72fec1d90a4c9.zip: 100%|██████████| 204k/204k [00:02<00:00, 81.6kB/s]                                                                                        2025-05-08 04:47:05,777 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 04:47:05,778 INFO Request ID is f504e7b3-2c48-49f6-a2f0-e1434242b4d1
+2025-05-08 04:47:06,148 INFO status has been updated to accepted
+2025-05-08 07:36:10,131 INFO status has been updated to running
+2025-05-08 07:44:16,041 INFO status has been updated to successful
+成功下载: ERA5_2015_10.nc
+正在下载 2015年11月数据...
+f09099c9b8fdd6186355dee2478a97fe.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]f09099c9b8fdd6186355dee2478a97fe.zip: 100%|██████████| 204k/204k [00:02<00:00, 98.6kB/s]                                                                                        2025-05-08 07:45:23,054 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 07:45:23,054 INFO Request ID is a11a62c4-245c-466a-a87c-2b77d95ec03e
+2025-05-08 07:45:23,426 INFO status has been updated to accepted
+2025-05-08 09:11:02,840 INFO status has been updated to running
+2025-05-08 09:23:11,640 INFO status has been updated to successful
+成功下载: ERA5_2015_11.nc
+正在下载 2015年12月数据...
+9bfaf9cbcb9f8df2f4a59df8b7d7a564.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]9bfaf9cbcb9f8df2f4a59df8b7d7a564.zip: 100%|██████████| 204k/204k [00:07<00:00, 27.2kB/s]                                                                                        2025-05-08 09:24:24,857 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 09:24:24,858 INFO Request ID is 377b2614-19b4-4b73-8182-a187a1c928d1
+2025-05-08 09:24:25,243 INFO status has been updated to accepted
+2025-05-08 10:40:21,117 INFO status has been updated to running
+2025-05-08 10:46:26,086 INFO status has been updated to successful
+成功下载: ERA5_2015_12.nc
+正在下载 2016年01月数据...
+a270ecf6a682db053cc8d89272b84abe.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]a270ecf6a682db053cc8d89272b84abe.zip: 100%|██████████| 204k/204k [00:02<00:00, 86.6kB/s]                                                                                        2025-05-08 10:47:33,718 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 10:47:33,718 INFO Request ID is 789f7078-2a3d-4cad-90dc-a00df406cd3d
+2025-05-08 10:47:34,165 INFO status has been updated to accepted
+2025-05-08 12:39:41,704 INFO status has been updated to running
+2025-05-08 12:47:47,629 INFO status has been updated to successful
+成功下载: ERA5_2016_01.nc
+正在下载 2016年02月数据...
+38d208fc6a127d2ca9b6c4a608aefebe.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]38d208fc6a127d2ca9b6c4a608aefebe.zip: 100%|██████████| 204k/204k [00:03<00:00, 67.3kB/s]                                                                                        2025-05-08 12:48:57,102 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 12:48:57,102 INFO Request ID is 865a43b0-abd4-467a-994d-2060ef58078d
+2025-05-08 12:48:57,501 INFO status has been updated to accepted
+2025-05-08 14:37:10,870 INFO status has been updated to running
+2025-05-08 14:47:18,357 INFO status has been updated to successful
+成功下载: ERA5_2016_02.nc
+正在下载 2016年03月数据...
+c734bcf3a607888f0b8d46a8f5598891.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]c734bcf3a607888f0b8d46a8f5598891.zip: 100%|██████████| 204k/204k [00:02<00:00, 74.7kB/s]                                                                                        2025-05-08 14:48:26,573 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 14:48:26,573 INFO Request ID is 8f8c2fa6-d8c0-4931-b5ed-e510a46a05ea
+2025-05-08 14:48:26,964 INFO status has been updated to accepted
+2025-05-08 16:28:10,003 INFO status has been updated to running
+2025-05-08 16:34:14,720 INFO status has been updated to successful
+成功下载: ERA5_2016_03.nc
+正在下载 2016年04月数据...
+e124414975faf4683dced88acf3db9eb.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]e124414975faf4683dced88acf3db9eb.zip: 100%|██████████| 204k/204k [00:02<00:00, 76.1kB/s]                                                                                        2025-05-08 16:35:23,822 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 16:35:23,822 INFO Request ID is 9e55a4b8-9510-49b4-9d29-5b060ac916e3
+2025-05-08 16:35:24,708 INFO status has been updated to accepted
+2025-05-08 16:56:07,331 INFO status has been updated to running
+2025-05-08 16:58:08,981 INFO status has been updated to accepted
+2025-05-08 17:10:17,907 INFO status has been updated to running
+2025-05-08 17:22:32,002 INFO status has been updated to successful
+成功下载: ERA5_2016_04.nc
+正在下载 2016年05月数据...
+3811921a1777c78fd2e5711901097039.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]3811921a1777c78fd2e5711901097039.zip: 100%|██████████| 204k/204k [00:01<00:00, 105kB/s]                                                                                       2025-05-08 17:23:39,331 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 17:23:39,331 INFO Request ID is 48815953-2ca5-4cc7-885d-e76531909147
+2025-05-08 17:23:39,706 INFO status has been updated to accepted
+2025-05-08 17:38:12,242 INFO status has been updated to running
+2025-05-08 17:44:16,803 INFO status has been updated to successful
+成功下载: ERA5_2016_05.nc
+正在下载 2016年06月数据...
+e0c298d6f71caf1dda6c522020a16bb4.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]e0c298d6f71caf1dda6c522020a16bb4.zip: 100%|██████████| 204k/204k [00:02<00:00, 80.3kB/s]                                                                                        2025-05-08 17:45:24,981 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 17:45:24,982 INFO Request ID is fe66fb6d-917a-4ad0-9034-7bb725e6b589
+2025-05-08 17:45:25,531 INFO status has been updated to accepted
+2025-05-08 18:02:10,617 INFO status has been updated to running
+2025-05-08 18:12:17,912 INFO status has been updated to successful
+成功下载: ERA5_2016_06.nc
+正在下载 2016年07月数据...
+84667a52117915b09f51079c93d4fdaa.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]84667a52117915b09f51079c93d4fdaa.zip: 100%|██████████| 204k/204k [00:02<00:00, 85.2kB/s]                                                                                        2025-05-08 18:13:30,739 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 18:13:30,739 INFO Request ID is c75ef3d1-f051-43f0-a619-5cd98b17e75c
+2025-05-08 18:13:31,111 INFO status has been updated to accepted
+2025-05-08 18:24:01,433 INFO status has been updated to running
+2025-05-08 18:26:02,929 INFO status has been updated to accepted
+2025-05-08 18:38:33,154 INFO status has been updated to running
+2025-05-08 18:44:53,662 INFO status has been updated to successful
+成功下载: ERA5_2016_07.nc
+正在下载 2016年08月数据...
+e8ff4bf06c9181ca23907571613c04e.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]e8ff4bf06c9181ca23907571613c04e.zip: 100%|██████████| 204k/204k [00:01<00:00, 105kB/s]                                                                                      2025-05-08 18:46:01,785 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 18:46:01,785 INFO Request ID is 52187163-373d-4bc6-98ad-7408e1330c17
+2025-05-08 18:46:02,172 INFO status has been updated to accepted
+2025-05-08 18:56:37,504 INFO status has been updated to running
+2025-05-08 19:04:43,779 INFO status has been updated to successful
+成功下载: ERA5_2016_08.nc
+正在下载 2016年09月数据...
+fa3dd8ba9772926080ad24045734ef12.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]fa3dd8ba9772926080ad24045734ef12.zip: 100%|██████████| 204k/204k [00:18<00:00, 11.4kB/s]                                                                                        2025-05-08 19:06:07,255 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 19:06:07,255 INFO Request ID is cc75429f-ebe3-4874-9573-6e00267fce2d
+2025-05-08 19:06:07,753 INFO status has been updated to accepted
+2025-05-08 19:20:46,143 INFO status has been updated to running
+2025-05-08 19:26:51,694 INFO status has been updated to successful
+成功下载: ERA5_2016_09.nc
+正在下载 2016年10月数据...
+3482b0dc8a198c2c508a88352f0b33d4.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]3482b0dc8a198c2c508a88352f0b33d4.zip: 100%|██████████| 204k/204k [00:02<00:00, 90.1kB/s]                                                                                        2025-05-08 19:28:00,143 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 19:28:00,144 INFO Request ID is ca9f56e0-ac69-4cb5-9ab1-a20b1c5785be
+2025-05-08 19:28:00,621 INFO status has been updated to accepted
+2025-05-08 19:56:59,060 INFO status has been updated to running
+2025-05-08 20:03:04,087 INFO status has been updated to successful
+成功下载: ERA5_2016_10.nc
+正在下载 2016年11月数据...
+5f14b6533dbb697118fd6d185776ab57.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]5f14b6533dbb697118fd6d185776ab57.zip: 100%|██████████| 204k/204k [00:02<00:00, 88.5kB/s]                                                                                        2025-05-08 20:04:11,521 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 20:04:11,521 INFO Request ID is de08fbfd-61bd-458e-b50e-1d0713b3456c
+2025-05-08 20:04:12,178 INFO status has been updated to accepted
+2025-05-08 20:22:53,421 INFO status has been updated to running
+2025-05-08 20:30:59,192 INFO status has been updated to successful
+成功下载: ERA5_2016_11.nc
+正在下载 2016年12月数据...
+773df7edbcac97be932a9fb51cbb916a.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]773df7edbcac97be932a9fb51cbb916a.zip: 100%|██████████| 204k/204k [00:03<00:00, 66.5kB/s]                                                                                        2025-05-08 20:32:08,625 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 20:32:08,625 INFO Request ID is e5c8b7a9-49cd-4270-a6a6-39e43fc8ec2f
+2025-05-08 20:32:09,203 INFO status has been updated to accepted
+2025-05-08 20:42:40,125 INFO status has been updated to running
+2025-05-08 20:54:54,327 INFO status has been updated to successful
+成功下载: ERA5_2016_12.nc
+正在下载 2017年01月数据...
+c7e9d83a54f520a39a1f64e3fbde507.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]c7e9d83a54f520a39a1f64e3fbde507.zip: 100%|██████████| 204k/204k [00:02<00:00, 74.8kB/s]                                                                                       2025-05-08 20:56:02,203 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 20:56:02,203 INFO Request ID is f780d3ed-14ae-472c-b4a3-94cbf6b13365
+2025-05-08 20:56:02,704 INFO status has been updated to accepted
+2025-05-08 21:24:49,597 INFO status has been updated to running
+2025-05-08 21:26:51,043 INFO status has been updated to accepted
+2025-05-08 21:30:55,077 INFO status has been updated to running
+2025-05-08 21:43:14,899 INFO status has been updated to successful
+成功下载: ERA5_2017_01.nc
+正在下载 2017年02月数据...
+f14b057e38e55d3d5db179a2c307cbf3.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]f14b057e38e55d3d5db179a2c307cbf3.zip: 100%|██████████| 204k/204k [00:03<00:00, 64.7kB/s]                                                                                        2025-05-08 21:44:39,388 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 21:44:39,389 INFO Request ID is bc44b356-5c78-4b08-be3e-ad638928f8a5
+2025-05-08 21:44:39,826 INFO status has been updated to accepted
+2025-05-08 21:59:22,017 INFO status has been updated to running
+2025-05-08 22:07:28,262 INFO status has been updated to successful
+成功下载: ERA5_2017_02.nc
+正在下载 2017年03月数据...
+67bdba63aad47469e755f2861e714464.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]67bdba63aad47469e755f2861e714464.zip: 100%|██████████| 204k/204k [00:03<00:00, 65.8kB/s]                                                                                        2025-05-08 22:08:37,292 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 22:08:37,292 INFO Request ID is e67ec7b0-4123-4cd2-b1b9-6b0e2a999942
+2025-05-08 22:08:37,709 INFO status has been updated to accepted
+2025-05-08 22:31:21,540 INFO status has been updated to running
+2025-05-08 22:37:28,913 INFO status has been updated to successful
+成功下载: ERA5_2017_03.nc
+正在下载 2017年04月数据...
+a3bbdf2cb07a4f80240070025a41dd5f.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]a3bbdf2cb07a4f80240070025a41dd5f.zip: 100%|██████████| 204k/204k [00:06<00:00, 34.7kB/s]                                                                                        2025-05-08 22:38:39,911 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 22:38:39,911 INFO Request ID is 5d09ede4-32a6-4289-b5ef-3052fff7a4b5
+2025-05-08 22:38:40,422 INFO status has been updated to accepted
+2025-05-08 22:49:14,087 INFO status has been updated to running
+2025-05-08 22:57:23,255 INFO status has been updated to successful
+成功下载: ERA5_2017_04.nc
+正在下载 2017年05月数据...
+3483a1c94d03b61881a27136bb130a76.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]3483a1c94d03b61881a27136bb130a76.zip: 100%|██████████| 204k/204k [00:02<00:00, 74.7kB/s]                                                                                        2025-05-08 22:58:36,895 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-08 22:58:36,895 INFO Request ID is 329bd3f3-897d-4365-887d-595d88416c37
+2025-05-08 22:58:37,321 INFO status has been updated to accepted
+2025-05-08 23:55:54,006 INFO status has been updated to running
+2025-05-09 00:08:05,273 INFO status has been updated to successful
+成功下载: ERA5_2017_05.nc
+正在下载 2017年06月数据...
+dc5c43580211b33d28e5d332f1222b2a.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]dc5c43580211b33d28e5d332f1222b2a.zip: 100%|██████████| 204k/204k [00:03<00:00, 56.2kB/s]                                                                                        2025-05-09 00:09:15,225 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 00:09:15,226 INFO Request ID is c7263709-dfb3-4e35-8b1d-df7562b32a83
+2025-05-09 00:09:15,601 INFO status has been updated to accepted
+2025-05-09 01:08:31,545 INFO status has been updated to running
+2025-05-09 01:16:39,229 INFO status has been updated to successful
+成功下载: ERA5_2017_06.nc
+正在下载 2017年07月数据...
+62907379755835bc902702d6b6ce0701.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]62907379755835bc902702d6b6ce0701.zip: 100%|██████████| 204k/204k [00:07<00:00, 26.8kB/s]                                                                                        2025-05-09 01:17:53,227 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 01:17:53,227 INFO Request ID is 394a494e-765e-4559-817f-9efbbdf36ea0
+2025-05-09 01:17:53,607 INFO status has been updated to accepted
+2025-05-09 02:00:56,869 INFO status has been updated to running
+2025-05-09 02:13:11,824 INFO status has been updated to successful
+成功下载: ERA5_2017_07.nc
+正在下载 2017年08月数据...
+3cc876d1978d4a0bc480c788ecf081d.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]3cc876d1978d4a0bc480c788ecf081d.zip: 100%|██████████| 204k/204k [00:02<00:00, 87.0kB/s]                                                                                       2025-05-09 02:14:21,152 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 02:14:21,152 INFO Request ID is 4cfe760e-ba01-4ef9-a0ee-62b7b8088570
+2025-05-09 02:14:21,561 INFO status has been updated to accepted
+2025-05-09 03:17:56,446 INFO status has been updated to running
+2025-05-09 03:26:07,335 INFO status has been updated to successful
+成功下载: ERA5_2017_08.nc
+正在下载 2017年09月数据...
+80f719b05f99bbf55485b1c92def2da6.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]80f719b05f99bbf55485b1c92def2da6.zip: 100%|██████████| 204k/204k [00:02<00:00, 83.8kB/s]                                                                                        2025-05-09 03:27:30,797 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 03:27:30,797 INFO Request ID is 364cfb95-888a-416a-883d-9d6d535db698
+2025-05-09 03:27:31,375 INFO status has been updated to accepted
+2025-05-09 03:56:14,528 INFO status has been updated to running
+2025-05-09 04:04:20,486 INFO status has been updated to successful
+成功下载: ERA5_2017_09.nc
+正在下载 2017年10月数据...
+23ac15c11fa835c432ac100d7230fb17.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]23ac15c11fa835c432ac100d7230fb17.zip: 100%|██████████| 204k/204k [00:02<00:00, 84.3kB/s]                                                                                        2025-05-09 04:05:32,698 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 04:05:32,698 INFO Request ID is 042be8c2-f2dc-4a03-96ea-58c4d2be584e
+2025-05-09 04:05:33,135 INFO status has been updated to accepted
+2025-05-09 05:13:09,362 INFO status has been updated to running
+2025-05-09 05:21:15,095 INFO status has been updated to successful
+成功下载: ERA5_2017_10.nc
+正在下载 2017年11月数据...
+ffde7f73f95c35007c6f7febccfebdfb.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]ffde7f73f95c35007c6f7febccfebdfb.zip: 100%|██████████| 204k/204k [00:02<00:00, 97.8kB/s]                                                                                        2025-05-09 05:22:41,051 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 05:22:41,052 INFO Request ID is d17ede22-a414-4feb-b6a5-982a75bdcbff
+2025-05-09 05:22:41,663 INFO status has been updated to accepted
+2025-05-09 06:17:53,971 INFO status has been updated to running
+2025-05-09 06:30:03,020 INFO status has been updated to successful
+成功下载: ERA5_2017_11.nc
+正在下载 2017年12月数据...
+2eafbe8582d69666a5941a9ac2de40dc.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]2eafbe8582d69666a5941a9ac2de40dc.zip: 100%|██████████| 204k/204k [00:02<00:00, 78.5kB/s]                                                                                        2025-05-09 06:31:10,992 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 06:31:10,992 INFO Request ID is 3eed8935-4e08-4e43-96c9-1675aa7eb7cf
+2025-05-09 06:31:11,368 INFO status has been updated to accepted
+2025-05-09 07:18:29,553 INFO status has been updated to running
+2025-05-09 07:24:34,028 INFO status has been updated to successful
+成功下载: ERA5_2017_12.nc
+正在下载 2018年01月数据...
+6aedf0cffb8b3af7ed180fddb956879f.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]6aedf0cffb8b3af7ed180fddb956879f.zip: 100%|██████████| 204k/204k [00:01<00:00, 109kB/s]                                                                                       2025-05-09 07:25:42,606 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 07:25:42,606 INFO Request ID is 64505611-56dd-46e9-9dad-1b0fc27fc945
+2025-05-09 07:25:42,990 INFO status has been updated to accepted
+2025-05-09 08:24:49,165 INFO status has been updated to running
+2025-05-09 08:32:55,108 INFO status has been updated to successful
+成功下载: ERA5_2018_01.nc
+正在下载 2018年02月数据...
+8b72073998ebf3c6c723836e62e3a6a3.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]8b72073998ebf3c6c723836e62e3a6a3.zip: 100%|██████████| 204k/204k [00:02<00:00, 87.1kB/s]                                                                                        2025-05-09 08:34:02,668 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 08:34:02,668 INFO Request ID is 023f8339-94ce-411e-9d1d-c733ea5c8771
+2025-05-09 08:34:03,038 INFO status has been updated to accepted
+Recovering from HTTP error [502 Bad Gateway], attempt 1 of 500
+Retrying in 120 seconds
+Recovering from connection error [HTTPSConnectionPool(host='cds.climate.copernicus.eu', port=443): Max retries exceeded with url: /api/retrieve/v1/jobs/023f8339-94ce-411e-9d1d-c733ea5c8771?log=True&request=True (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))], attempt 2 of 500
+Retrying in 120 seconds
+Recovering from connection error [HTTPSConnectionPool(host='cds.climate.copernicus.eu', port=443): Max retries exceeded with url: /api/retrieve/v1/jobs/023f8339-94ce-411e-9d1d-c733ea5c8771?log=True&request=True (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))], attempt 3 of 500
+Retrying in 120 seconds
+2025-05-09 09:10:34,388 INFO status has been updated to running
+2025-05-09 09:18:40,083 INFO status has been updated to successful
+成功下载: ERA5_2018_02.nc
+正在下载 2018年03月数据...
+babaf725db5773d3b6832403fd492857.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]babaf725db5773d3b6832403fd492857.zip: 100%|██████████| 204k/204k [00:02<00:00, 88.9kB/s]                                                                                        2025-05-09 09:19:47,175 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 09:19:47,175 INFO Request ID is d443b343-e225-4f9a-8b32-4fe268942002
+2025-05-09 09:19:47,571 INFO status has been updated to accepted
+2025-05-09 09:24:11,877 INFO status has been updated to running
+2025-05-09 09:36:21,309 INFO status has been updated to successful
+成功下载: ERA5_2018_03.nc
+正在下载 2018年04月数据...
+e43343513f68d3da332464e911409704.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]e43343513f68d3da332464e911409704.zip: 100%|██████████| 204k/204k [00:02<00:00, 103kB/s]                                                                                       2025-05-09 09:37:49,851 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 09:37:49,851 INFO Request ID is 9707f0b9-e385-4828-b66f-a6d31f8b1395
+2025-05-09 09:37:50,239 INFO status has been updated to accepted
+2025-05-09 10:45:06,713 INFO status has been updated to running
+2025-05-09 10:47:08,236 INFO status has been updated to accepted
+2025-05-09 12:30:42,428 INFO status has been updated to running
+2025-05-09 12:36:48,835 INFO status has been updated to successful
+成功下载: ERA5_2018_04.nc
+正在下载 2018年05月数据...
+a61fa045e1e0811ffcbf7dca5664b623.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]a61fa045e1e0811ffcbf7dca5664b623.zip: 100%|██████████| 204k/204k [00:08<00:00, 24.8kB/s]                                                                                        2025-05-09 12:38:04,995 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 12:38:04,996 INFO Request ID is 1aadeaa0-853e-48fe-9ff9-859f544d27f7
+2025-05-09 12:38:05,507 INFO status has been updated to accepted
+2025-05-09 12:58:51,849 INFO status has been updated to running
+2025-05-09 13:04:56,922 INFO status has been updated to successful
+成功下载: ERA5_2018_05.nc
+正在下载 2018年06月数据...
+62e29fed317667f38770d7c69cb87a63.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]62e29fed317667f38770d7c69cb87a63.zip: 100%|██████████| 204k/204k [00:04<00:00, 44.9kB/s]                                                                                        2025-05-09 13:06:09,868 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 13:06:09,868 INFO Request ID is cd36a96b-5db3-4b4b-8209-673c39db867c
+2025-05-09 13:06:10,262 INFO status has been updated to accepted
+2025-05-09 13:47:43,603 INFO status has been updated to running
+2025-05-09 13:59:57,849 INFO status has been updated to successful
+成功下载: ERA5_2018_06.nc
+正在下载 2018年07月数据...
+9ea71383d0915e093a73f17cff5a86b5.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]9ea71383d0915e093a73f17cff5a86b5.zip: 100%|██████████| 204k/204k [00:08<00:00, 25.4kB/s]                                                                                        2025-05-09 14:01:10,704 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 14:01:10,704 INFO Request ID is fd35b0dc-8926-417e-a02c-e070a3250b19
+2025-05-09 14:01:11,106 INFO status has been updated to accepted
+2025-05-09 16:12:24,951 INFO status has been updated to running
+2025-05-09 16:20:30,811 INFO status has been updated to successful
+成功下载: ERA5_2018_07.nc
+正在下载 2018年08月数据...
+4d546f3407cb8be5dfad26718a29a38c.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]4d546f3407cb8be5dfad26718a29a38c.zip: 100%|██████████| 204k/204k [00:02<00:00, 72.1kB/s]                                                                                        2025-05-09 16:21:39,170 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 16:21:39,171 INFO Request ID is 8e24a148-ec9c-47f7-af06-86c35ad6edf6
+2025-05-09 16:21:39,560 INFO status has been updated to accepted
+2025-05-09 16:40:20,859 INFO status has been updated to running
+2025-05-09 16:50:28,577 INFO status has been updated to successful
+成功下载: ERA5_2018_08.nc
+正在下载 2018年09月数据...
+56453ea96f88bd945603e2ff245eac63.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]56453ea96f88bd945603e2ff245eac63.zip: 100%|██████████| 204k/204k [00:02<00:00, 85.7kB/s]                                                                                        2025-05-09 16:51:36,167 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 16:51:36,168 INFO Request ID is dc7a9a4e-69ef-43c5-bba2-f1711c8efaf7
+2025-05-09 16:51:36,577 INFO status has been updated to accepted
+2025-05-09 17:33:25,436 INFO status has been updated to running
+2025-05-09 17:41:38,315 INFO status has been updated to successful
+成功下载: ERA5_2018_09.nc
+正在下载 2018年10月数据...
+78b57adfe7188f8264160fe545920a8a.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]78b57adfe7188f8264160fe545920a8a.zip: 100%|██████████| 204k/204k [00:02<00:00, 97.6kB/s]                                                                                        2025-05-09 17:42:56,179 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 17:42:56,179 INFO Request ID is ec6a96ea-54d1-421e-882b-6e55ff6cafa0
+2025-05-09 17:42:56,661 INFO status has been updated to accepted
+2025-05-09 17:57:33,140 INFO status has been updated to running
+2025-05-09 18:07:40,426 INFO status has been updated to successful
+成功下载: ERA5_2018_10.nc
+正在下载 2018年11月数据...
+10c114f24b93bbdfa4c30b1f82b75941.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]10c114f24b93bbdfa4c30b1f82b75941.zip: 100%|██████████| 204k/204k [00:02<00:00, 85.0kB/s]                                                                                        2025-05-09 18:08:48,137 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 18:08:48,138 INFO Request ID is 59a0197c-1b31-41fe-bb2d-1e885f6bf34e
+2025-05-09 18:08:48,580 INFO status has been updated to accepted
+2025-05-09 18:25:26,337 INFO status has been updated to running
+2025-05-09 18:33:32,105 INFO status has been updated to successful
+成功下载: ERA5_2018_11.nc
+正在下载 2018年12月数据...
+46810a0caafd37be56fd0a0aa88cacef.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]46810a0caafd37be56fd0a0aa88cacef.zip: 100%|██████████| 204k/204k [00:07<00:00, 27.5kB/s]                                                                                        2025-05-09 18:34:44,906 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 18:34:44,906 INFO Request ID is adec9149-7277-44a2-a81c-3d2e0e041d45
+2025-05-09 18:34:45,353 INFO status has been updated to accepted
+2025-05-09 18:47:18,040 INFO status has been updated to running
+2025-05-09 18:55:24,644 INFO status has been updated to successful
+成功下载: ERA5_2018_12.nc
+正在下载 2019年01月数据...
+14b8519cca776f44aa992766f9eb8676.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]14b8519cca776f44aa992766f9eb8676.zip: 100%|██████████| 204k/204k [00:03<00:00, 64.5kB/s]                                                                                        2025-05-09 18:56:32,306 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 18:56:32,306 INFO Request ID is 814854bc-f839-4d8e-ae87-cf6fea4f880d
+2025-05-09 18:56:32,690 INFO status has been updated to accepted
+2025-05-09 19:07:26,541 INFO status has been updated to running
+2025-05-09 19:17:33,973 INFO status has been updated to successful
+成功下载: ERA5_2019_01.nc
+正在下载 2019年02月数据...
+4836a29177abc828c3122e62f7f5de65.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]4836a29177abc828c3122e62f7f5de65.zip: 100%|██████████| 204k/204k [00:02<00:00, 89.8kB/s]                                                                                        2025-05-09 19:18:43,405 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 19:18:43,406 INFO Request ID is d0a731bf-7f89-4e13-8503-034c70abfaaa
+2025-05-09 19:18:43,777 INFO status has been updated to accepted
+2025-05-09 19:27:11,405 INFO status has been updated to running
+2025-05-09 19:37:23,919 INFO status has been updated to successful
+成功下载: ERA5_2019_02.nc
+正在下载 2019年03月数据...
+276150d75d0b0af9047ae717c41375e5.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]276150d75d0b0af9047ae717c41375e5.zip: 100%|██████████| 204k/204k [00:03<00:00, 60.4kB/s]                                                                                        2025-05-09 19:38:35,078 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 19:38:35,078 INFO Request ID is 0fc3e1a0-529e-4ed7-b04d-fe8c354ff94e
+2025-05-09 19:38:35,868 INFO status has been updated to accepted
+2025-05-09 19:45:02,222 INFO status has been updated to running
+2025-05-09 19:55:09,451 INFO status has been updated to successful
+成功下载: ERA5_2019_03.nc
+正在下载 2019年04月数据...
+dd104aaa17aa7a0942d264eac7c09dbc.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]dd104aaa17aa7a0942d264eac7c09dbc.zip: 100%|██████████| 204k/204k [00:02<00:00, 94.4kB/s]                                                                                        2025-05-09 19:56:17,302 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 19:56:17,302 INFO Request ID is 79d405ec-3574-4c7f-b242-cdb74c56a86a
+2025-05-09 19:56:17,690 INFO status has been updated to accepted
+2025-05-09 19:57:12,480 INFO status has been updated to running
+2025-05-09 20:08:53,168 INFO status has been updated to successful
+成功下载: ERA5_2019_04.nc
+正在下载 2019年05月数据...
+b24384af169a4e5b85ea75318d8b8501.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]b24384af169a4e5b85ea75318d8b8501.zip: 100%|██████████| 204k/204k [00:01<00:00, 107kB/s]                                                                                       2025-05-09 20:10:00,481 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 20:10:00,481 INFO Request ID is 44a5b6ae-319f-4fa5-a4b3-0d9837f0ec6a
+2025-05-09 20:10:00,916 INFO status has been updated to accepted
+2025-05-09 20:24:34,794 INFO status has been updated to running
+2025-05-09 20:34:44,451 INFO status has been updated to successful
+成功下载: ERA5_2019_05.nc
+正在下载 2019年06月数据...
+55951fba2acfc03611ff0c6ff821a39f.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]55951fba2acfc03611ff0c6ff821a39f.zip: 100%|██████████| 204k/204k [00:03<00:00, 64.0kB/s]                                                                                        2025-05-09 20:35:54,926 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 20:35:54,926 INFO Request ID is ebc3baab-105d-4c4a-b688-cb4695a78d97
+2025-05-09 20:35:57,885 INFO status has been updated to accepted
+2025-05-09 20:42:35,033 INFO status has been updated to running
+2025-05-09 20:50:41,693 INFO status has been updated to successful
+成功下载: ERA5_2019_06.nc
+正在下载 2019年07月数据...
+f7e536749164371a2c7e4c053528e322.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]f7e536749164371a2c7e4c053528e322.zip: 100%|██████████| 204k/204k [00:03<00:00, 56.1kB/s]                                                                                        2025-05-09 20:51:51,055 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 20:51:51,055 INFO Request ID is e15c7f68-41bb-4161-bc07-2e17a912dda1
+2025-05-09 20:51:52,088 INFO status has been updated to accepted
+2025-05-09 21:02:23,972 INFO status has been updated to running
+2025-05-09 21:10:32,497 INFO status has been updated to successful
+成功下载: ERA5_2019_07.nc
+正在下载 2019年08月数据...
+ccad251a79cb4de16bebddcc2be7f35b.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]ccad251a79cb4de16bebddcc2be7f35b.zip: 100%|██████████| 204k/204k [00:02<00:00, 90.3kB/s]                                                                                        2025-05-09 21:11:40,399 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 21:11:40,400 INFO Request ID is d01b1af0-048f-488c-8973-28c1686fa1b6
+2025-05-09 21:11:40,950 INFO status has been updated to accepted
+2025-05-09 21:18:07,374 INFO status has been updated to running
+2025-05-09 21:26:14,601 INFO status has been updated to successful
+成功下载: ERA5_2019_08.nc
+正在下载 2019年09月数据...
+f18ad3d355f04b55db11261c961ccb6c.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]f18ad3d355f04b55db11261c961ccb6c.zip: 100%|██████████| 204k/204k [00:03<00:00, 63.9kB/s]                                                                                        2025-05-09 21:27:25,301 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 21:27:25,301 INFO Request ID is b86ba179-bddc-4def-9043-566d2e7480da
+2025-05-09 21:27:25,694 INFO status has been updated to accepted
+2025-05-09 21:54:16,500 INFO status has been updated to running
+2025-05-09 22:00:21,989 INFO status has been updated to successful
+成功下载: ERA5_2019_09.nc
+正在下载 2019年10月数据...
+23a42cd2d4f4b23cc2983994042ae992.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]23a42cd2d4f4b23cc2983994042ae992.zip: 100%|██████████| 204k/204k [00:02<00:00, 80.1kB/s]                                                                                        2025-05-09 22:01:33,982 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 22:01:33,982 INFO Request ID is 51e73499-1642-4172-b380-c8109f964271
+2025-05-09 22:01:34,505 INFO status has been updated to accepted
+2025-05-09 22:08:02,290 INFO status has been updated to running
+2025-05-09 22:14:08,456 INFO status has been updated to successful
+成功下载: ERA5_2019_10.nc
+正在下载 2019年11月数据...
+5c4539fc9ad311ab53aa0b045e1d249.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]5c4539fc9ad311ab53aa0b045e1d249.zip: 100%|██████████| 204k/204k [00:08<00:00, 25.5kB/s]                                                                                       2025-05-09 22:15:21,835 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 22:15:21,835 INFO Request ID is 0aa94f95-f599-4618-9df2-4f22f740ce02
+2025-05-09 22:15:22,241 INFO status has been updated to accepted
+2025-05-09 22:36:32,883 INFO status has been updated to running
+2025-05-09 22:44:44,178 INFO status has been updated to successful
+成功下载: ERA5_2019_11.nc
+正在下载 2019年12月数据...
+d1ff1087a25607a176c9fb18cbc1abb3.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]d1ff1087a25607a176c9fb18cbc1abb3.zip: 100%|██████████| 204k/204k [00:04<00:00, 43.2kB/s]                                                                                        2025-05-09 22:46:02,195 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 22:46:02,195 INFO Request ID is 23f946ee-0e99-4436-8e9a-80c5c63b81cb
+2025-05-09 22:46:02,608 INFO status has been updated to accepted
+2025-05-09 23:02:51,777 INFO status has been updated to running
+2025-05-09 23:10:59,039 INFO status has been updated to successful
+成功下载: ERA5_2019_12.nc
+正在下载 2020年01月数据...
+f6505bfe64de987a090c34b6b833c714.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]f6505bfe64de987a090c34b6b833c714.zip: 100%|██████████| 204k/204k [00:02<00:00, 71.8kB/s]                                                                                        2025-05-09 23:12:07,237 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 23:12:07,238 INFO Request ID is c99e424a-8ef1-49f6-9175-f7f7690d79c1
+2025-05-09 23:12:07,725 INFO status has been updated to accepted
+2025-05-09 23:22:42,945 INFO status has been updated to running
+2025-05-09 23:28:47,842 INFO status has been updated to successful
+成功下载: ERA5_2020_01.nc
+正在下载 2020年02月数据...
+706ab30ecc581e6dbf583ae6f79eee7b.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]706ab30ecc581e6dbf583ae6f79eee7b.zip: 100%|██████████| 204k/204k [00:02<00:00, 82.9kB/s]                                                                                        2025-05-09 23:29:57,647 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-09 23:29:57,648 INFO Request ID is b75fb49c-5458-45df-a9e1-7a3e73464311
+2025-05-09 23:29:58,052 INFO status has been updated to accepted
+2025-05-10 00:07:25,758 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 00:07:25,758 INFO Request ID is 275b9111-3d07-4c2f-84ad-81d609ecbf31
+2025-05-10 00:07:26,152 INFO status has been updated to accepted
+2025-05-10 01:19:19,746 INFO status has been updated to running
+2025-05-10 01:27:27,225 INFO status has been updated to successful
+成功下载: ERA5_2020_02.nc
+正在下载 2020年03月数据...
+下载失败: HTTPSConnectionPool(host='cds.climate.copernicus.eu', port=443): Max retries exceeded with url: /api/retrieve/v1/jobs/b75fb49c-5458-45df-a9e1-7a3e73464311?log=True&request=True (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+正在下载 2020年04月数据...
+下载失败: HTTPSConnectionPool(host='cds.climate.copernicus.eu', port=443): Max retries exceeded with url: /api/retrieve/v1/processes/derived-era5-single-levels-daily-statistics (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+正在下载 2020年05月数据...
+下载失败: HTTPSConnectionPool(host='cds.climate.copernicus.eu', port=443): Max retries exceeded with url: /api/retrieve/v1/processes/derived-era5-single-levels-daily-statistics (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+正在下载 2020年06月数据...
+下载失败: HTTPSConnectionPool(host='cds.climate.copernicus.eu', port=443): Max retries exceeded with url: /api/retrieve/v1/processes/derived-era5-single-levels-daily-statistics (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+正在下载 2020年07月数据...
+38236e8ad756bc430ff726417364363f.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]38236e8ad756bc430ff726417364363f.zip: 100%|██████████| 204k/204k [00:02<00:00, 87.3kB/s]                                                                                        2025-05-10 01:28:34,975 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 01:28:34,976 INFO Request ID is f82cf3d9-5d33-489b-952c-5a4547e7ca43
+2025-05-10 01:28:35,364 INFO status has been updated to accepted
+2025-05-10 02:24:16,420 INFO status has been updated to running
+2025-05-10 02:32:22,893 INFO status has been updated to successful
+成功下载: ERA5_2020_07.nc
+正在下载 2020年08月数据...
+41b3a753a45b230f4d22a2a79e32ff02.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]41b3a753a45b230f4d22a2a79e32ff02.zip: 100%|██████████| 204k/204k [00:02<00:00, 84.2kB/s]                                                                                        2025-05-10 02:33:31,214 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 02:33:31,214 INFO Request ID is 3fc18f39-4c75-4fbc-be23-84d849698f4d
+2025-05-10 02:33:31,590 INFO status has been updated to accepted
+2025-05-10 02:52:07,060 INFO status has been updated to running
+Recovering from HTTP error [500 Internal Server Error], attempt 1 of 500
+Retrying in 120 seconds
+2025-05-10 03:02:40,764 INFO status has been updated to successful
+成功下载: ERA5_2020_08.nc
+正在下载 2020年09月数据...
+45508f02809c096c86e3742b527c321f.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]45508f02809c096c86e3742b527c321f.zip: 100%|██████████| 204k/204k [00:02<00:00, 85.2kB/s]                                                                                        2025-05-10 03:03:48,213 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 03:03:48,214 INFO Request ID is 072ce5ef-11c5-4317-ae6d-d6699c2b516e
+2025-05-10 03:03:48,615 INFO status has been updated to accepted
+2025-05-10 03:52:57,735 INFO status has been updated to running
+2025-05-10 04:01:03,737 INFO status has been updated to successful
+成功下载: ERA5_2020_09.nc
+正在下载 2020年10月数据...
+249abb0f3f4aa72c3c9787396e2b50aa.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]249abb0f3f4aa72c3c9787396e2b50aa.zip: 100%|██████████| 204k/204k [00:01<00:00, 106kB/s]                                                                                       2025-05-10 04:02:11,406 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 04:02:11,407 INFO Request ID is bcbe460e-3885-4309-a190-9ea6c6ff6d82
+2025-05-10 04:02:11,784 INFO status has been updated to accepted
+2025-05-10 04:53:37,422 INFO status has been updated to running
+2025-05-10 05:01:48,883 INFO status has been updated to successful
+成功下载: ERA5_2020_10.nc
+正在下载 2020年11月数据...
+a6182fef39bfcda92847f09eb74c95d.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]a6182fef39bfcda92847f09eb74c95d.zip: 100%|██████████| 204k/204k [00:02<00:00, 74.3kB/s]                                                                                       2025-05-10 05:02:58,423 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 05:02:58,423 INFO Request ID is ed0d3311-7709-4f9b-96e6-13c22d1050d6
+2025-05-10 05:02:58,832 INFO status has been updated to accepted
+2025-05-10 05:25:40,623 INFO status has been updated to running
+2025-05-10 05:27:42,483 INFO status has been updated to accepted
+2025-05-10 05:45:56,898 INFO status has been updated to running
+2025-05-10 05:58:22,999 INFO status has been updated to successful
+成功下载: ERA5_2020_11.nc
+正在下载 2020年12月数据...
+37b6259de43768e997664e534fd69192.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]37b6259de43768e997664e534fd69192.zip: 100%|██████████| 204k/204k [00:02<00:00, 78.9kB/s]                                                                                        2025-05-10 05:59:31,254 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 05:59:31,255 INFO Request ID is 8681bca3-bbc2-43ff-8840-66968752c72b
+2025-05-10 05:59:31,675 INFO status has been updated to accepted
+2025-05-10 06:58:58,423 INFO status has been updated to running
+2025-05-10 07:09:06,449 INFO status has been updated to successful
+成功下载: ERA5_2020_12.nc
+正在下载 2021年01月数据...
+e669d3791a2683d9b293c1b47cefa3e3.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]e669d3791a2683d9b293c1b47cefa3e3.zip: 100%|██████████| 204k/204k [00:02<00:00, 99.0kB/s]                                                                                        2025-05-10 07:10:13,726 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 07:10:13,726 INFO Request ID is 031bd5e4-993c-4533-824b-5f7d231716d2
+2025-05-10 07:10:14,095 INFO status has been updated to accepted
+2025-05-10 07:59:23,565 INFO status has been updated to running
+2025-05-10 08:07:30,552 INFO status has been updated to successful
+成功下载: ERA5_2021_01.nc
+正在下载 2021年02月数据...
+fe6c62769a07bb9ed302c1b980409e2d.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]fe6c62769a07bb9ed302c1b980409e2d.zip: 100%|██████████| 204k/204k [00:02<00:00, 81.4kB/s]                                                                                        2025-05-10 08:08:38,739 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 08:08:38,740 INFO Request ID is d12741a3-9303-4923-8f90-9222f956600c
+2025-05-10 08:08:39,191 INFO status has been updated to accepted
+2025-05-10 09:18:17,489 INFO status has been updated to running
+2025-05-10 09:26:23,332 INFO status has been updated to successful
+成功下载: ERA5_2021_02.nc
+正在下载 2021年03月数据...
+767023e7c60a209fa98d8b9c9de04ba3.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]767023e7c60a209fa98d8b9c9de04ba3.zip: 100%|██████████| 204k/204k [00:02<00:00, 74.5kB/s]                                                                                        2025-05-10 09:27:47,484 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 09:27:47,485 INFO Request ID is aec70d55-ee23-4a5b-a31f-1adf8d24329d
+2025-05-10 09:27:47,866 INFO status has been updated to accepted
+2025-05-10 09:28:40,480 INFO status has been updated to running
+2025-05-10 09:38:22,393 INFO status has been updated to successful
+成功下载: ERA5_2021_03.nc
+正在下载 2021年04月数据...
+b7757734392468464b74615b51ae02d4.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]b7757734392468464b74615b51ae02d4.zip: 100%|██████████| 204k/204k [00:02<00:00, 85.6kB/s]                                                                                        2025-05-10 09:39:29,663 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 09:39:29,663 INFO Request ID is edd8c655-c521-4bfa-87ec-5008c8a90594
+2025-05-10 09:39:30,048 INFO status has been updated to accepted
+2025-05-10 09:46:01,105 INFO status has been updated to running
+2025-05-10 09:54:07,147 INFO status has been updated to successful
+成功下载: ERA5_2021_04.nc
+正在下载 2021年05月数据...
+f5a163a7f75bf71811a7a35cb20999e.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]f5a163a7f75bf71811a7a35cb20999e.zip: 100%|██████████| 204k/204k [00:02<00:00, 83.8kB/s]                                                                                       2025-05-10 09:55:15,604 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 09:55:15,605 INFO Request ID is dfd6b50b-9b67-430a-a2fc-f1c94493b967
+2025-05-10 09:55:15,998 INFO status has been updated to accepted
+2025-05-10 09:56:08,423 INFO status has been updated to running
+2025-05-10 10:03:44,490 INFO status has been updated to successful
+成功下载: ERA5_2021_05.nc
+正在下载 2021年06月数据...
+89fb3835581cac137506030e9ae20fde.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]89fb3835581cac137506030e9ae20fde.zip: 100%|██████████| 204k/204k [00:02<00:00, 104kB/s]                                                                                       2025-05-10 10:04:51,101 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 10:04:51,101 INFO Request ID is 3883f332-d79a-49e5-93b6-bed38bb147c7
+2025-05-10 10:04:51,519 INFO status has been updated to accepted
+2025-05-10 10:15:25,899 INFO status has been updated to running
+2025-05-10 10:23:32,048 INFO status has been updated to successful
+成功下载: ERA5_2021_06.nc
+正在下载 2021年07月数据...
+7124c6eb4d589f1f81297dfc05e5e428.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]7124c6eb4d589f1f81297dfc05e5e428.zip: 100%|██████████| 204k/204k [00:02<00:00, 87.6kB/s]                                                                                        2025-05-10 10:24:39,578 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 10:24:39,578 INFO Request ID is 22f35069-c403-43e5-adb7-03abf77c90cb
+2025-05-10 10:24:39,979 INFO status has been updated to accepted
+2025-05-10 10:31:06,233 INFO status has been updated to running
+2025-05-10 10:39:17,241 INFO status has been updated to successful
+成功下载: ERA5_2021_07.nc
+正在下载 2021年08月数据...
+ac4f87339d4a54116f98f95ea1c54fb2.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]ac4f87339d4a54116f98f95ea1c54fb2.zip: 100%|██████████| 204k/204k [00:02<00:00, 79.6kB/s]                                                                                        2025-05-10 10:40:25,212 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 10:40:25,212 INFO Request ID is 7116eeb8-b8d7-478b-94be-7974f62e44c5
+2025-05-10 10:40:25,761 INFO status has been updated to accepted
+2025-05-10 10:55:14,619 INFO status has been updated to running
+2025-05-10 11:03:21,038 INFO status has been updated to successful
+成功下载: ERA5_2021_08.nc
+正在下载 2021年09月数据...
+61814e7875a83fb4d2c8836156cb4bc3.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]61814e7875a83fb4d2c8836156cb4bc3.zip: 100%|██████████| 204k/204k [00:01<00:00, 106kB/s]                                                                                       2025-05-10 11:04:28,130 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 11:04:28,130 INFO Request ID is bc0dd513-540b-42e1-a8ea-1fc0a80915d1
+2025-05-10 11:04:28,742 INFO status has been updated to accepted
+2025-05-10 11:05:47,750 INFO status has been updated to running
+2025-05-10 11:07:25,712 INFO status has been updated to accepted
+2025-05-10 11:08:53,862 INFO status has been updated to running
+2025-05-10 11:19:06,387 INFO status has been updated to successful
+成功下载: ERA5_2021_09.nc
+正在下载 2021年10月数据...
+a6f6d559108bd3c576efdb00c8c53cd4.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]a6f6d559108bd3c576efdb00c8c53cd4.zip: 100%|██████████| 204k/204k [00:02<00:00, 87.1kB/s]                                                                                        2025-05-10 11:20:14,399 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 11:20:14,400 INFO Request ID is 3d99280f-0bce-4527-a4d2-cb8b2f280322
+2025-05-10 11:20:14,771 INFO status has been updated to accepted
+2025-05-10 11:38:50,362 INFO status has been updated to running
+2025-05-10 11:45:04,923 INFO status has been updated to successful
+成功下载: ERA5_2021_10.nc
+正在下载 2021年11月数据...
+d3a337e55ee3b7f8483d58e48139ad1.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]d3a337e55ee3b7f8483d58e48139ad1.zip: 100%|██████████| 204k/204k [00:02<00:00, 100kB/s]                                                                                      2025-05-10 11:46:12,343 WARNING [2025-02-12T00:00:00] Requests for non-consecutive date ranges combined with non-UTC time-zones may contain undersampled data points for the dates before and after the gap in the date range. See known-issues table on documentation tab for more details.
+2025-05-10 11:46:12,344 INFO Request ID is a6d3e6ad-391c-4ea5-a24d-d98b7aa8d42a
+2025-05-10 11:46:12,723 INFO status has been updated to accepted
+2025-05-10 12:08:50,528 INFO status has been updated to running
+2025-05-10 12:18:58,533 INFO status has been updated to successful
+成功下载: ERA5_2021_11.nc
+正在下载 2021年12月数据...
+6dd55ad8344aff8fbdccec40bbca7538.zip:   0%|          | 0.00/204k [00:00<?, ?B/s]6dd55ad8344aff8fbdccec40bbca7538.zip: 100%|██████████| 204k/204k [00:02<00:00, 87.4kB/s]                                                                                        成功下载: ERA5_2021_12.nc
+所有数据下载完成！

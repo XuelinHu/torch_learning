@@ -210,3 +210,5 @@ agent/audios
 agent/images
 agent/ppts
 agent/vedios
+
+*.pt
