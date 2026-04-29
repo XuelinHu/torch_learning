@@ -1,56 +1,92 @@
-import pandas as pd
-if __name__ == '__main__':
+from __future__ import annotations
 
-    # 读取文件
-    excel_file = pd.ExcelFile('/Users/deipss/Desktop/LZTD/a宁局:沿海2025届2+1/同步通讯录模版.xls')
-
-    # 获取所有表名
-    sheet_names = excel_file.sheet_names
-
-    # 获取指定工作表中的数据
-    df = excel_file.parse('导入模板')
-
-    # 查看数据的基本信息
-    print('数据基本信息：')
-    df.info()
-
-    # 查看数据集行数和列数
-    rows, columns = df.shape
-
-    if rows < 100 and columns < 20:
-        # 短表数据（行数少于100且列数少于20）查看全量数据信息
-        print('数据全部内容信息：')
-        print(df.to_csv(sep='\t', na_rep='nan'))
-    else:
-        # 长表数据查看数据前几行信息
-        print('数据前几行内容信息：')
-        print(df.head().to_csv(sep='\t', na_rep='nan'))
+from pathlib import Path
 
 
-    import vobject
+GROUP_NAME = "2026年4月工学交替班"
+ORG_NAME = GROUP_NAME
+NOTE_TEXT = GROUP_NAME
 
-    # 创建一个 VCF 文件并写入内容
-    with open('/Users/deipss/Desktop/LZTD/a宁局:沿海2025届2+1/同步通讯录模版.vcf', 'w', encoding='utf-8') as vcf_file:
-        for index, row in df.iterrows():
-            vcard = vobject.vCard()
 
-            # 添加姓名
-            vcard.add('n')
-            vcard.n.value = vobject.vcard.Name(family='', given=row['姓名'], additional='', prefix='', suffix='')
-            vcard.add('fn')
-            vcard.fn.value = row['姓名']
+def read_text_with_fallback(path: Path) -> str:
+    for encoding in ("utf-8", "gbk", "gb18030"):
+        try:
+            return path.read_text(encoding=encoding)
+        except UnicodeDecodeError:
+            continue
+    raise UnicodeDecodeError("unknown", b"", 0, 1, f"无法解码文件: {path}")
 
-            # 添加电话号码
-            vcard.add('tel')
-            vcard.tel.value = str(row['工作手机'])
-            vcard.tel.params['TYPE'] = ['WORK']
 
-            # 添加分组信息（非标准 VCF 字段，不同软件支持程度不同）
-            group_field = vcard.add('X-OPPO-GROUP')
-            group_field.value = row['分组']
-            # 添加分组信息（非标准 VCF 字段，不同软件支持程度不同）
-            group_field = vcard.add('PRINTABLE')
-            group_field.value = row['分组']
+def encode_qp(value: str) -> str:
+    return "".join(f"={byte:02X}" for byte in value.encode("utf-8"))
 
-            # 写入文件
-            vcf_file.write(vcard.serialize())
+
+def build_qp_field(field: str, value: str) -> str:
+    encoded = encode_qp(value)
+    return f"{field};CHARSET=UTF-8;ENCODING=QUOTED-PRINTABLE:{encoded}"
+
+
+def normalize_phone(value: str) -> str:
+    return str(value).strip().replace(" ", "")
+
+
+def parse_contact_lines(text: str) -> list[dict[str, str]]:
+    rows = []
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if not line:
+            continue
+
+        parts = [part.strip() for part in line.split("\t")]
+        if len(parts) < 8:
+            continue
+        if parts[0] == "姓名":
+            continue
+
+        rows.append(
+            {
+                "student_name": parts[0],
+                "student_phone": normalize_phone(parts[5]),
+                "guardian_name": parts[6],
+                "guardian_phone": normalize_phone(parts[7]),
+            }
+        )
+    return rows
+
+
+def build_vcard(contact: dict[str, str]) -> str:
+    student_name = contact["student_name"]
+    display_name = f"{student_name}同学"
+
+    lines = [
+        "BEGIN:VCARD",
+        "VERSION:2.1",
+        build_qp_field("N", student_name),
+        build_qp_field("FN", display_name),
+        f"TEL;CELL:{contact['student_phone']}",
+        f"TEL;HOME:{contact['guardian_phone']}",
+        build_qp_field("ORG", ORG_NAME),
+        build_qp_field("NOTE", NOTE_TEXT),
+        build_qp_field("X-OPPO-GROUP", GROUP_NAME),
+        "END:VCARD",
+    ]
+    return "\r\n".join(lines)
+
+
+def main() -> None:
+    base_dir = Path(__file__).resolve().parent
+    source_path = base_dir / "contact.txt"
+    output_path = base_dir / "contact.vcf"
+
+    text = read_text_with_fallback(source_path)
+    contacts = parse_contact_lines(text)
+    if not contacts:
+        raise ValueError(f"未从 {source_path} 解析到联系人数据")
+
+    vcards = "\r\n\r\n".join(build_vcard(contact) for contact in contacts) + "\r\n"
+    output_path.write_text(vcards, encoding="utf-8", newline="")
+    print(f"已生成 {len(contacts)} 条联系人到: {output_path}")
+
+
+if __name__ == "__main__":
+    main()
