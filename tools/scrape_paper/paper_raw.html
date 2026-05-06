@@ -1,0 +1,333 @@
+<!DOCTYPE html><html><head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>练一练</title>
+
+    <!-- 插件css 在这里添加插件所需要的CSS-->
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/plugins/magnific-popup/css/magnific-popup.css" rel="stylesheet">
+    <link href="/assets/plugins/bootkit/css/bootkit.css" rel="stylesheet">
+    <link href="/assets/css/base.css" rel="stylesheet">
+    <link href="/assets/exam/css/main.css" rel="stylesheet" type="text/css">
+    <link href="/assets/exam/css/iconfont.css" rel="stylesheet" type="text/css">
+    <link href="/assets/exam/css/test.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/base.css" rel="stylesheet" type="text/css">
+    <style>
+        .hasBeenAnswer {
+            background: #5d9cec;
+            color: #fff;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei UI';
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <!--nr start-->
+        <div class="test_main">
+            <div class="nr_left">
+                <div class="test">
+                    <form action="" method="post">
+                        <div class="test_title">
+                            <p class="test_time">
+                                <font><input type="button" name="test_back" value="返回" onclick="back()" class="btn btn-success"></font>
+                            </p>
+                            <font><input type="button" name="test_jiaojuan" value="交卷" onclick="finishTestPaper('')"></font>
+                        </div>
+
+                                <div class="test_content">
+                                    <div class="test_content_title">
+                                        <h2>整个练习共100题</h2>
+                                    </div>
+                                </div>
+                                <div class="test_content">
+                                    <div class="test_content_title">
+                                        <h2>单选题</h2>
+                                    </div>
+                                </div>
+                                <div class="test_content_nr">
+                                    <ul>
+                                        <li id="qu_1217">
+                                            <div class="test_content_nr_tt">
+                                                <font>赵老师将党的二十大精神及时融入思政课课堂教学，使学生了解未来五年乃至更长时期党和国家事业发展的目标任务和大政方针，形成一定的政治意识。这说明高等教育具有</font><b class="icon iconfont"><input type="button" name="bug" class="btn btn-info btn-xs" value="错题反馈" onclick="bugReport('1217')"></b>
+
+                                            </div>
+                                            <div class="test_content_nr_main">
+                                                <ul>
+                                                        <li class="option">
+                                                            <input type="radio" class="radioOrCheck" name="answer_1217" onclick="update('1217', 'A', 'danxuan')" id="answer_1217_option_A">
+                                                            <label for="answer_1217_option_A">
+                                                                A.
+                                                                <p class="ue" style="display: inline;">政治功能</p>
+                                                            </label>
+                                                        </li>
+                                                                                                            <li class="option">
+                                                            <input type="radio" class="radioOrCheck" name="answer_1217" onclick="update('1217', 'B', 'danxuan')" id="answer_1217_option_B">
+                                                            <label for="answer_1217_option_B">
+                                                                B.
+                                                                <p class="ue" style="display: inline;">个体功能</p>
+                                                            </label>
+                                                        </li>
+                                                                                                            <li class="option">
+                                                            <input type="radio" class="radioOrCheck" name="answer_1217" onclick="update('1217', 'C', 'danxuan')" id="answer_1217_option_C">
+                                                            <label for="answer_1217_option_C">
+                                                                C.
+                                                                <p class="ue" style="display: inline;">文化功能</p>
+                                                            </label>
+                                                        </li>
+                                                                                                            <li class="option">
+                                                            <input type="radio" class="radioOrCheck" name="answer_1217" onclick="update('1217', 'D', 'danxuan')" id="answer_1217_option_D">
+                                                            <label for="answer_1217_option_D">
+                                                                D.
+                                                                <p class="ue" style="display: inline;">生态功能</p>
+                                                            </label>
+                                                        </li>
+                                                                                                    </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                        <div class="test_content">
+                            <div class="test_content_title">
+                                <input type="button" name="nextQuestion2" class="btn btn-info" value="下一题" onclick="nextQuestion('37')">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="nr_right" id="answer_1217_option_Answer" style="display:none;">
+                <div class="nr_rt_main">
+                    <div class="rt_nr1">
+                        <div class="rt_nrtitle">
+                            <h1>
+                                <i class="icon iconfont"></i>正确答案
+                            </h1>
+                        </div>
+
+                        <div class="rt_content">
+                            <div class="rt_content_tt">
+                                <h2></h2>
+                                <p>
+                                </p>
+                            </div>
+                            <div class="rt_content_nr answerSheet">
+                                <label class="form-control">A</label>
+                            </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--nr end-->
+        <div class="foot"></div>
+    </div>
+
+    <script src="/assets/exam/js/jquery-1.11.3.min.js"></script>
+    <script src="/assets/exam/js/jquery.easy-pie-chart.js"></script>
+    <script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/plugins/magnific-popup/js/magnific-popup.js"></script>
+    <script src="/assets/plugins/bootbox/bootbox.min.js"></script>
+    <script src="/assets/js/base.js?v=2"></script>
+    <script>
+        window.history.pushState(null, null, document.URL)
+
+        function back() {
+            window.location.href = '/GqpxUser/StudtyTab?tab=vtab9';
+        }
+
+    var testId = '212183';
+    var paperId = '38';
+    var url = '/GqpxExamTest/updateTestTime';
+    var finishUrl = '/GqpxExamTest/FinishTestPaper';
+        var tab = 'vtab1';
+        var tjOk = false;
+
+        window.onload = function () {
+            $.ajax({
+                type: "Post",
+                url: '/GqpxExamTest/GetTestOnceAnswer',
+                dataType: "json",
+                data: { paperId: paperId, testId: testId, tikuId: '1217' },
+                success: function (result) {
+                    if (result.indexOf("success") >= 0) {
+                        console.log("error,paperId:" + paperId + ",testId:" + testId + "," + result.msg);
+                    } else {
+                        $.each(result, function (i) {
+                            var row = result[i];
+                            if (row.answer.indexOf('A') >= 0) {
+                                tijiaoAnwser();
+                                $("#answer_" + row.tikuId + "_option_A").attr("checked", true);
+                            }
+                            if (row.answer.indexOf('B') >= 0) {
+                                tijiaoAnwser();
+                                $("#answer_" + row.tikuId + "_option_B").attr("checked", true);
+                            }
+                            if (row.answer.indexOf('C') >= 0) {
+                                tijiaoAnwser();
+                                $("#answer_" + row.tikuId + "_option_C").attr("checked", true);
+                            }
+                            if (row.answer.indexOf('D') >= 0) {
+                                tijiaoAnwser();
+                                $("#answer_" + row.tikuId + "_option_D").attr("checked", true);
+                            }
+                            if (row.answer.indexOf('E') >= 0) {
+                                $("#answer_" + row.tikuId + "_option_E").attr("checked", true);
+                            }
+                            if (row.answer.indexOf('对') >= 0) {
+                                tijiaoAnwser();
+                                $("#answer_" + row.tikuId + "_option_A").attr("checked", true);
+                            }
+                            if (row.answer.indexOf('错') >= 0) {
+                                tijiaoAnwser();
+                                $("#answer_" + row.tikuId + "_option_B").attr("checked", true);
+                            }
+                        });
+                    }
+                }
+            });
+        }
+
+    function lastQuestion(rn) {
+        //if (rn == 1) {
+        //    showWarning('已经是第一道题');
+        //    return;
+        //}
+
+        var tikuId = '1248';
+        window.location.href = '/GqpxExamTest/PaperTestOnce?paperId=38&testId=212183&tab=vtab1&tikuId=' + tikuId;
+        }
+
+
+        function nextQuestion(rn) {
+        
+
+            if (!tjOk) {
+                showWarning('请先答题');
+                return;
+            }
+        var tikuId = '1249';
+
+            window.location.href = '/GqpxExamTest/PaperTestOnce?paperId=38&testId=212183&tab=vtab1&tikuId=' + tikuId;
+        }
+
+        function tijiaoAnwser() {
+            tjOk = true;
+            $('#answer_1217_option_Answer').css("display", "block");
+        }
+
+        function update(tikuId, answer, type) {
+      //发送答案至后台保存
+      if (type == "duoxuan") {
+        var str = "";
+        if ($("#answer_" + tikuId + "_option_A").is(':checked')) { str = str + "A" }
+        if ($("#answer_" + tikuId + "_option_B").is(':checked')) { str = str + "B" }
+        if ($("#answer_" + tikuId + "_option_C").is(':checked')) { str = str + "C" }
+        if ($("#answer_" + tikuId + "_option_D").is(':checked')) { str = str + "D" }
+        if ($("#answer_" + tikuId + "_option_E").is(':checked')) { str = str + "E" }
+        answer = str;
+      }
+
+            $.ajax({
+                type: "Post",
+                url: '/GqpxExamTest/updateTestAnswer',
+                dataType: "json",
+                data: { paperId: paperId, testId: testId, tikuId: tikuId, answer: answer },
+                success: function (result) {
+                    if (!result.success) {
+                        showWarning(result.msg);
+                        console.log("error,paperId:" + paperId + ",testId:" + testId + "," + result.msg);
+                    } else {
+                        setTimeout(function () {
+                            tijiaoAnwser();
+                        }, 1000);
+                    }
+                },
+                error: function () {
+                    showWarning('网络故障，请重新登录');
+                }
+            });
+    }
+
+    function finishTestPaper() {
+      bootbox.dialog({
+        message: '确定交卷?',
+        title: "",
+        buttons: {
+          success: {
+            label: "确定",
+            className: "btn-danger",
+            callback: function () {
+                $.ajax({
+                    type: "Post",
+                    url: "/GqpxExamTest/FinishTestPaperOnce",
+                    dataType: "json",
+                    data: { paperId: paperId, testId: testId },
+                    success: function (result) {
+                        if (result.success) {
+                            window.open('/GqpxUser/StudtyTab?tab=vtab1', '_self');
+                        }
+                        else {
+                            showWarning(result.msg);
+                        }
+                    },
+                    error: function () {
+                        showWarning('网络故障，请重新登录');
+                    }
+                });
+            }
+          },
+          main: {
+            label: "取消",
+            className: "btn-primary",
+            callback: function () { }
+          }
+        }
+      });
+    }
+
+    function bugReport(tikuId) {
+      bootbox.prompt({
+        title: '请输入简单描述题目问题?不少于10个字。',
+        buttons: {
+          confirm: {
+            label: '确定',
+            className: 'btn-success'
+          },
+          cancel: {
+            label: '取消',
+            className: 'btn-danger'
+          }
+        },
+        callback: function (result) {
+          if (result != null) {
+            if (result == "" || result.length < 10) {
+              showWarning("请仔细描述题目问题!");
+              return;
+            }
+            $.ajax({
+              type: "Post",
+              url: "/GqpxExamTest/BugReport",
+              dataType: "json",
+              data: { paperId: paperId, testId: testId, tikuId: tikuId, message: result },
+              success: function (result) {
+                if (!result.success) {
+                  showWarning(result.msg);
+                }
+              }
+            });
+          }
+        }
+      });
+    }
+
+    </script>
+
+    <div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+    </div>
+
+
+</body></html>

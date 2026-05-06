@@ -1,0 +1,197 @@
+- generic [active] [ref=e1]:
+  - text:   
+  - dialog [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "×" [ref=e6] [cursor=pointer]
+        - generic [ref=e7]: 请登录
+      - button "确定" [ref=e9] [cursor=pointer]
+  - generic [ref=e10]:
+    - banner [ref=e12]:
+      - generic [ref=e14]:
+        - link "广西高等学校师资培训中心" [ref=e17] [cursor=pointer]:
+          - /url: https://gxttc.gxnu.edu.cn/main.htm
+        - navigation [ref=e21]:
+          - list [ref=e24]:
+            - listitem
+            - listitem
+            - listitem [ref=e25]:
+              - link "首页" [ref=e26] [cursor=pointer]:
+                - /url: https://gxttc.gxnu.edu.cn/main.htm
+            - listitem [ref=e27]:
+              - link "岗前培训" [ref=e28] [cursor=pointer]:
+                - /url: /PcHome
+            - listitem [ref=e29]:
+              - link "中短期培训" [ref=e30] [cursor=pointer]:
+                - /url: /PcHome
+            - listitem [ref=e31]:
+              - link "证书核验" [ref=e32] [cursor=pointer]:
+                - /url: /Certificate/Check
+        - list [ref=e35]:
+          - listitem [ref=e36]:
+            - link "登录" [ref=e37] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e38]:
+            - link "注册" [ref=e39] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e42]:
+      - heading "融名家智慧，育大国良师" [level=3] [ref=e45]
+      - heading " 岗前培训通知 查看更多>>" [level=4] [ref=e48]:
+        - generic [ref=e49]: 
+        - text: 岗前培训通知
+        - link "查看更多>>" [ref=e50] [cursor=pointer]:
+          - /url: /GqpxUser/Announce
+      - table [ref=e53]:
+        - rowgroup [ref=e54]:
+          - row "标题 发布时间" [ref=e55]:
+            - columnheader "标题" [ref=e56]
+            - columnheader "发布时间" [ref=e57]
+        - rowgroup [ref=e58]:
+          - row "关于开展2026年上半年广西高等学校教师岗前培训工作的通知 师培〔2... 2026-01-05" [ref=e59]:
+            - cell "关于开展2026年上半年广西高等学校教师岗前培训工作的通知 师培〔2..." [ref=e60]:
+              - img [ref=e61]
+              - link "关于开展2026年上半年广西高等学校教师岗前培训工作的通知 师培〔2..." [ref=e62] [cursor=pointer]:
+                - /url: /Announce?id=108
+            - cell "2026-01-05" [ref=e63]
+          - row "2026年广西高校教师教学技能提升研修工作坊（第一期）预报名通知 师培... 2026-01-05" [ref=e64]:
+            - cell "2026年广西高校教师教学技能提升研修工作坊（第一期）预报名通知 师培..." [ref=e65]:
+              - img [ref=e66]
+              - link "2026年广西高校教师教学技能提升研修工作坊（第一期）预报名通知 师培..." [ref=e67] [cursor=pointer]:
+                - /url: /Announce?id=109
+            - cell "2026-01-05" [ref=e68]
+          - row "关于举办 2026年广西高等学校青年教师教学业务能力提升研修班(第十三... 2025-11-28" [ref=e69]:
+            - cell "关于举办 2026年广西高等学校青年教师教学业务能力提升研修班(第十三..." [ref=e70]:
+              - img [ref=e71]
+              - link "关于举办 2026年广西高等学校青年教师教学业务能力提升研修班(第十三..." [ref=e72] [cursor=pointer]:
+                - /url: https://gxttc.gxnu.edu.cn/2025/1128/c1582a332180/page.htm
+            - cell "2025-11-28" [ref=e73]
+          - row "关于组织2025年广西高等学校青年教师教学业务能力提升研修班(第十二期... 2025-09-18" [ref=e74]:
+            - cell "关于组织2025年广西高等学校青年教师教学业务能力提升研修班(第十二期..." [ref=e75]:
+              - img [ref=e76]
+              - link "关于组织2025年广西高等学校青年教师教学业务能力提升研修班(第十二期..." [ref=e77] [cursor=pointer]:
+                - /url: /Announce?id=106
+            - cell "2025-09-18" [ref=e78]
+          - row "关于开展2025年下半年广西高等学校教师岗前培训工作的通知 师培〔2... 2025-06-25" [ref=e79]:
+            - cell "关于开展2025年下半年广西高等学校教师岗前培训工作的通知 师培〔2..." [ref=e80]:
+              - img [ref=e81]
+              - link "关于开展2025年下半年广西高等学校教师岗前培训工作的通知 师培〔2..." [ref=e82] [cursor=pointer]:
+                - /url: /Announce?id=105
+            - cell "2025-06-25" [ref=e83]
+          - row "关于开展2025年上半年广西高等学校教师岗前培训工作的通知... 2025-01-03" [ref=e84]:
+            - cell "关于开展2025年上半年广西高等学校教师岗前培训工作的通知..." [ref=e85]:
+              - img [ref=e86]
+              - link "关于开展2025年上半年广西高等学校教师岗前培训工作的通知..." [ref=e87] [cursor=pointer]:
+                - /url: /Announce?id=104
+            - cell "2025-01-03" [ref=e88]
+          - row "关于举办 2025年广西高等学校青年教师 教学业务能力提升研修班(第十... 2024-11-27" [ref=e89]:
+            - cell "关于举办 2025年广西高等学校青年教师 教学业务能力提升研修班(第十..." [ref=e90]:
+              - img [ref=e91]
+              - link "关于举办 2025年广西高等学校青年教师 教学业务能力提升研修班(第十..." [ref=e92] [cursor=pointer]:
+                - /url: /Announce?id=101
+            - cell "2024-11-27" [ref=e93]
+      - generic [ref=e94]:
+        - generic:
+          - heading [level=4]
+      - generic [ref=e96]:
+        - table [ref=e97]:
+          - rowgroup [ref=e98]:
+            - row "文件政策、通知 查看更多>>" [ref=e99]:
+              - columnheader "文件政策、通知" [ref=e100]
+              - columnheader "查看更多>>" [ref=e101]:
+                - link "查看更多>>" [ref=e102] [cursor=pointer]:
+                  - /url: /Announce/ModuleIndex?id=1
+          - rowgroup [ref=e103]:
+            - row "标题 发布时间" [ref=e104]:
+              - columnheader "标题" [ref=e105]
+              - columnheader "发布时间" [ref=e106]
+          - rowgroup
+        - table [ref=e107]:
+          - rowgroup [ref=e108]:
+            - row "日常规定事项 查看更多>>" [ref=e109]:
+              - columnheader "日常规定事项" [ref=e110]
+              - columnheader "查看更多>>" [ref=e111]:
+                - link "查看更多>>" [ref=e112] [cursor=pointer]:
+                  - /url: /Announce/ModuleIndex?id=2
+          - rowgroup [ref=e113]:
+            - row "标题 发布时间" [ref=e114]:
+              - columnheader "标题" [ref=e115]
+              - columnheader "发布时间" [ref=e116]
+          - rowgroup
+        - table [ref=e117]:
+          - rowgroup [ref=e118]:
+            - row "学员需要下载的材料 查看更多>>" [ref=e119]:
+              - columnheader "学员需要下载的材料" [ref=e120]
+              - columnheader "查看更多>>" [ref=e121]:
+                - link "查看更多>>" [ref=e122] [cursor=pointer]:
+                  - /url: /Announce/ModuleIndex?id=3
+          - rowgroup [ref=e123]:
+            - row "标题 发布时间" [ref=e124]:
+              - columnheader "标题" [ref=e125]
+              - columnheader "发布时间" [ref=e126]
+          - rowgroup
+        - table [ref=e127]:
+          - rowgroup [ref=e128]:
+            - row "培训环节专家简介 查看更多>>" [ref=e129]:
+              - columnheader "培训环节专家简介" [ref=e130]
+              - columnheader "查看更多>>" [ref=e131]:
+                - link "查看更多>>" [ref=e132] [cursor=pointer]:
+                  - /url: /Announce/ModuleIndex?id=4
+          - rowgroup [ref=e133]:
+            - row "标题 发布时间" [ref=e134]:
+              - columnheader "标题" [ref=e135]
+              - columnheader "发布时间" [ref=e136]
+          - rowgroup
+        - table [ref=e137]:
+          - rowgroup [ref=e138]:
+            - row "集中培训专家讲座提纲、课件 查看更多>>" [ref=e139]:
+              - columnheader "集中培训专家讲座提纲、课件" [ref=e140]
+              - columnheader "查看更多>>" [ref=e141]:
+                - link "查看更多>>" [ref=e142] [cursor=pointer]:
+                  - /url: /Announce/ModuleIndex?id=5
+          - rowgroup [ref=e143]:
+            - row "标题 发布时间" [ref=e144]:
+              - columnheader "标题" [ref=e145]
+              - columnheader "发布时间" [ref=e146]
+          - rowgroup
+        - table [ref=e147]:
+          - rowgroup [ref=e148]:
+            - row "导师指导环节相关内容 查看更多>>" [ref=e149]:
+              - columnheader "导师指导环节相关内容" [ref=e150]
+              - columnheader "查看更多>>" [ref=e151]:
+                - link "查看更多>>" [ref=e152] [cursor=pointer]:
+                  - /url: /Announce/ModuleIndex?id=6
+          - rowgroup [ref=e153]:
+            - row "标题 发布时间" [ref=e154]:
+              - columnheader "标题" [ref=e155]
+              - columnheader "发布时间" [ref=e156]
+          - rowgroup
+        - table [ref=e157]:
+          - rowgroup [ref=e158]:
+            - row "区外名校随堂听课 查看更多>>" [ref=e159]:
+              - columnheader "区外名校随堂听课" [ref=e160]
+              - columnheader "查看更多>>" [ref=e161]:
+                - link "查看更多>>" [ref=e162] [cursor=pointer]:
+                  - /url: /Announce/ModuleIndex?id=7
+          - rowgroup [ref=e163]:
+            - row "标题 发布时间" [ref=e164]:
+              - columnheader "标题" [ref=e165]
+              - columnheader "发布时间" [ref=e166]
+          - rowgroup
+        - table [ref=e167]:
+          - rowgroup [ref=e168]:
+            - row "班级文化建设及相片集锦 查看更多>>" [ref=e169]:
+              - columnheader "班级文化建设及相片集锦" [ref=e170]
+              - columnheader "查看更多>>" [ref=e171]:
+                - link "查看更多>>" [ref=e172] [cursor=pointer]:
+                  - /url: /Announce/ModuleIndex?id=8
+          - rowgroup [ref=e173]:
+            - row "标题 发布时间" [ref=e174]:
+              - columnheader "标题" [ref=e175]
+              - columnheader "发布时间" [ref=e176]
+          - rowgroup
+    - contentinfo [ref=e177]:
+      - paragraph [ref=e183]:
+        - text: Copyright 2020 The Project by
+        - link "广西高等学校师资培训中心" [ref=e184] [cursor=pointer]:
+          - /url: "#"
+        - text: . All Rights Reserved

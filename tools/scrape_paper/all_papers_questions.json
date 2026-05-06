@@ -1,0 +1,114 @@
+{
+  "paper_38": [
+    {
+      "id": "qu_1242",
+      "num": 1,
+      "type": "单选题",
+      "text": "高等学校的社会服务应该关注人类、社会、国家的共同利益，引领社会进步，这体现了高等学校社会服务的",
+      "options": [
+        {
+          "letter": "A",
+          "text": "独立性"
+        },
+        {
+          "letter": "B",
+          "text": "营利性"
+        },
+        {
+          "letter": "C",
+          "text": "自主性"
+        },
+        {
+          "letter": "D",
+          "text": "伦理性"
+        }
+      ],
+      "correctAnswer": "D",
+      "knowledgePoint": ""
+    }
+  ],
+  "paper_35": [
+    {
+      "id": "qu_1349",
+      "num": 1,
+      "type": "单选题",
+      "text": "8.下列情形中，某公办大学不得解除教师聘用合同的是",
+      "options": [
+        {
+          "letter": "A",
+          "text": "董老师处在孕期"
+        },
+        {
+          "letter": "B",
+          "text": "唐老师被开除公职"
+        },
+        {
+          "letter": "C",
+          "text": "胡老师体罚学生，经教育不改"
+        },
+        {
+          "letter": "D",
+          "text": "钟老师连续旷工超过15个工作日"
+        }
+      ],
+      "correctAnswer": "A",
+      "knowledgePoint": ""
+    }
+  ],
+  "paper_41": [
+    {
+      "id": "qu_1387",
+      "num": 1,
+      "type": "多选题",
+      "text": "23.根据马斯洛的观点，缺失性需要包括",
+      "options": [
+        {
+          "letter": "A",
+          "text": "生理需要"
+        },
+        {
+          "letter": "B",
+          "text": "安全需要"
+        },
+        {
+          "letter": "C",
+          "text": "归属与爱的需要"
+        },
+        {
+          "letter": "D",
+          "text": "尊重的需要"
+        }
+      ],
+      "correctAnswer": "ABCD",
+      "knowledgePoint": ""
+    }
+  ],
+  "paper_43": [
+    {
+      "id": "qu_1184",
+      "num": 1,
+      "type": "单选题",
+      "text": "马克思指出，“共产党人的良心不同于保皇党人的良心。”这说明良心具有",
+      "options": [
+        {
+          "letter": "A",
+          "text": "阶级性"
+        },
+        {
+          "letter": "B",
+          "text": "职业性"
+        },
+        {
+          "letter": "C",
+          "text": "社会性"
+        },
+        {
+          "letter": "D",
+          "text": "差异性"
+        }
+      ],
+      "correctAnswer": "A",
+      "knowledgePoint": ""
+    }
+  ]
+}

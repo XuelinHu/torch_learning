@@ -1,0 +1,3 @@
+[    6746ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: http://gxgspxpt.gspxonline.com/assets/mooc/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0 @ http://gxgspxpt.gspxonline.com/?msg=%E8%AF%B7%E7%99%BB%E5%BD%95&tab=134224643758202353:0
+[    7011ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://gxgspxpt.gspxonline.com/?msg=%E8%AF%B7%E7%99%BB%E5%BD%95&tab=134224643758202353:0
+[   14244ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://gxgspxpt.gspxonline.com/favicon.ico:0
